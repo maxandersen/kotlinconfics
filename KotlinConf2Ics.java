@@ -58,16 +58,23 @@ public class KotlinConf2Ics implements Callable<Integer> {
                     for (var session : sessionGroup.nodes()) {
                         var event = new VEvent();
 
-                        String summary = session.title();
+                        String summary = Qute.fmt("{title} {#if categories}[{categories}]{/if}", 
+                                        Map.of("title",session.title(),
+                                        "categories",session.categoryItems().stream().map(c -> c.name()).collect(Collectors.joining(", "))));
                         event.setSummary(summary);
 
                         String description = Qute.fmt("""
-                        Speakers:{speakers}
+                        {#if speakers}
+                        Speakers:
+                          {#for speaker : speakers}
+                            {speaker.fullName()} - {speaker.tagLine()}
+                          {/for}
 
+                        {/if}
                         {description}
                         """, Map.of(
                                                 "description",Objects.toString(session.description(),""),
-                                                "speakers",session.speakers.stream().map(s -> s.fullName()).collect(Collectors.joining(", "))));
+                                                "speakers",session.speakers));
                         event.setDescription(description);
                         event.setLocation(session.room() != null ? session.room().name() : null);
                         event.setDateStart(from(parse(session.startsAt(), ISO_OFFSET_DATE_TIME).toInstant()));
