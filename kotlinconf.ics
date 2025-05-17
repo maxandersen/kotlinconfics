@@ -1,0 +1,2453 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Michael Angstadt//biweekly 0.6.8//EN
+BEGIN:VEVENT
+UID:05001985-087e-4e77-9e1b-aebb3e0bc9c6
+DTSTAMP:20250517T082505Z
+SUMMARY:Registration
+LOCATION:Room #173
+DTSTART:20250521T060000Z
+DTEND:20250521T070000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:c1656b0c-aa7c-478d-8f9a-977223f5bd67
+DTSTAMP:20250517T082505Z
+SUMMARY:Spring Boot With Coroutines and Virtual Threads. Part 1.
+DESCRIPTION:If you want to get the most out of Spring Boot in terms of low 
+ latency\, high-throughput\, and resource efficiency\, there is no way arou
+ nd virtual threads and/or reactive libraries like Webflux.\n\nHowever\, bo
+ th won’t get you far: Virtual threads are limited to non-blocking operatio
+ ns\, and WebFlux — even though offering all reactive qualities\, like non-
+ blocking\, parallelism\, streaming\, etc. — will give you a lot of headach
+ es due to its complexity\, bad readability\, and maintainability.\n\nIn th
+ is workshop\, you’ll learn how Spring Boot’s coroutine support will wipe o
+ ut all the downsides of the ‘raw’ WebFlux approach or the limitations of v
+ irtual threads and provide you with the best of both worlds: non-blocking 
+ reactive characteristics without the complexity.\n\nDuring the workshop\, 
+ we will explore Kotlin’s reactive building blocks\, such as coroutines and 
+ flows\, and apply them in Spring Boot. By building a non-blocking API in S
+ pring Boot from scratch\, you’ll learn how to:\n\n- Use coroutines on top 
+ of WebFlux and/or virtual threads.\n- Perform non-blocking remote API call
+ s using WebClient or RestClient.\n- Access a database in a reactive way\, 
+ either via the R2DBC or JDBC\, including framework support.\n- Apply struc
+ tured concurrency in your business logic\, like requesting data in paralle
+ l.\n- Create an advanced streaming API based on ServerSentEvents that comb
+ ines coroutines and flow.\n\nIn addition\, we will explore virtual threads 
+ in-depth and see how they can leverage the power of coroutines even more.\
+ n\nAt the end of the workshop\, you’ll know all the ins and outs of progra
+ mming in Spring Boot with coroutines while having experienced the tremendo
+ us benefits they offer over raw virtual threads or WebFlux.\n\nWith the kn
+ owledge you gain\, you can enlighten your Spring Boot project with corouti
+ nes the very next day.
+LOCATION:Room #173
+DTSTART:20250521T070000Z
+DTEND:20250521T083000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:68d20128-40c3-4b98-b52d-41c8e96662ac
+DTSTAMP:20250517T082505Z
+SUMMARY:Extracting\, Transforming\, and Analyzing Data With Kotlin. Part 1.
+DESCRIPTION:This workshop is designed for all Kotlin developers who need si
+ mple and convenient tools within their native ecosystem to assist them whe
+ n working with data\, understanding its nature\, performing any necessary 
+ processing\, and presenting the results to their team or stakeholders as a 
+ report or chart.\n\nIn this workshop\, you’ll learn how to build data proc
+ essing pipelines in your applications. We’ll explore the best practices fo
+ r extracting data from various sources\, aggregating and transforming it\, 
+ and then exporting it as a collection of data classes\, displaying it as t
+ ables\, or visualizing it with insightful charts.\n\nBy the end of the wor
+ kshop\, you’ll be able to:\n\n- Load\, transform\, and export data using t
+ he Kotlin DataFrame library.\n- Visualize data with the Kandy library to e
+ ffectively convey insights.\n- Access and manipulate data from various sou
+ rces: REST APIs\, SQL databases\, CSV files\, and other tabular data.\n- H
+ andle both flat and hierarchical JSON-like data structures.\n- Boost your 
+ code written with the help of the kotlin.collections or SQL-like framework
+ s.\n- Solve practical problems by applying your skills to three real-world 
+ scenarios.\n- Present the insights in Kotlin notebooks and easily share th
+ em on GitHub Gists.
+LOCATION:Room #174
+DTSTART:20250521T070000Z
+DTEND:20250521T083000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:f9f8d830-3244-4406-83c2-f6bcf0f1fdcf
+DTSTAMP:20250517T082505Z
+SUMMARY:Hands-On Kotlin Web Development With Ktor. Part 1.
+DESCRIPTION:Ktor is a lightweight and flexible toolkit for building HTTP ap
+ plications. This workshop will use the Kotlin programming language\, the K
+ tor framework\, the Exposed database access library\, OpenAI\, and several 
+ other Kotlin and Java libraries to build a feature-complete AI powered web 
+ application.\n\nWe’ll start with the basics by exploring the Ktor framewor
+ k and learning how to build a simple web application using essential funct
+ ions. We’ll cover topics like handling HTTP requests\, working with WebSoc
+ kets\, database access\, authentication\, logging\, and deployment.\n\nFor 
+ testing\, we will look into the APIs that Ktor provides. Finally\, we will 
+ explore the API for writing plugins and use it to create a simple plugin f
+ or our Ktor application.\n\nBy the end of the workshop\, you’ll be able to
+ :\n  - Structure Ktor projects\n  - Test Ktor applications\n  - Create and 
+ deploy RESTful services using Ktor\n  - Integrate Ktor with external libra
+ ries\n\nThis will be a fast-paced workshop where attendees will spend most 
+ of their time coding. You will walk away armed with a cookbook of various 
+ Ktor recipes for building feature-complete AI powered web application.
+LOCATION:Room #176
+DTSTART:20250521T070000Z
+DTEND:20250521T083000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:118226c9-46e9-4e9a-aba1-14e169c40e16
+DTSTAMP:20250517T082505Z
+SUMMARY:Building Shared UI With Compose Multiplatform. Part 1.
+DESCRIPTION:Take the next step in your cross-platform Kotlin journey with C
+ ompose Multiplatform! This workshop is for developers already familiar wit
+ h the basics of Kotlin Multiplatform and Jetpack Compose who are looking t
+ o extend their skills by building a shared UI.\n\nWe’ll discuss how Compos
+ e Multiplatform works and show you how your existing Compose skills are re
+ usable across platforms. You’ll have hands-on time with a wide range of Co
+ mpose features\, focusing on how they work across different platforms. Dur
+ ing the workshop’s exercises\, you’ll work with Compose code\, explore API
+ s\, build new features\, improve accessibility\, test the UI\, and more.\n
+ \nCovering the latest available APIs and best practices\, we’ll equip you 
+ with everything you need to start using Compose Multiplatform in your own 
+ apps! Here is how the workshop will be structured:\n\nIntroduction\n- How 
+ Compose Multiplatform works\n- Running Compose on Android\, iOS\, Desktop\
+ , and Web\n- Writing basic Compose code for multiplatform use\n\nCompose b
+ uilding blocks\n- Resources (localization\, fonts\, and more)\n- Image loa
+ ding\n- ViewModels and architecture components\n- Navigation\n- Animations
+ \n- Dependency injection\n- Theming\n\nMastering Compose Multiplatform\n- 
+ Interop with native components\n- Dialogs\n- Insets\n- Accessibility\n- Te
+ sting\n\nThis workshop includes exercises for participants to complete on 
+ their own laptops. Using a MacBook is highly recommended for participation 
+ in all exercises\, as iOS applications can only be built on macOS. Detaile
+ d setup instructions will be provided prior to the workshop.
+LOCATION:Room #178
+DTSTART:20250521T070000Z
+DTEND:20250521T083000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:d9f8f5f1-9c50-4bee-bc68-263b3fc68034
+DTSTAMP:20250517T082505Z
+SUMMARY:Deep Dive Into Kotlin Multiplatform: Advanced Techniques for Seamle
+ ss Code Sharing. Part 1.
+DESCRIPTION:This is an intermediate/advanced workshop for experienced Kotli
+ n Multiplatform developers. It is aimed at developers who have built proje
+ cts with Kotlin Multiplatform and Jetpack Compose / Compose Multiplatform 
+ and now want to progress onto more advanced topics.\n\nThe workshop aims t
+ o equip attendees with the skills to write high-quality code and apps usin
+ g Kotlin Multiplatform. The workshop will address the following topics:\n\
+ nA Gentle(r) Introduction\n- Introducing an example project\n- Explaining 
+ project structure and architecture\n- Highlighting a few key libraries use
+ d in the project\n\nNative Integrations\n- Splash screens\n- Notifications
+ \n- Working with files\n\nAdvanced Kotlin Multiplatform for iOS Targets\n- 
+ Debugging Kotlin/Swift\n- Understanding and improving Kotlin/Swift interop
+ erability\n\nCode Quality\n- Code coverage with Kover (JVM-only)\n- Modula
+ rization\n\nApp Quality\n- Fixing memory leaks\n- Performance testing\n- A
+ pp size optimization\n\nManaging Workflows\n- Basics of building CI/CD pip
+ elines for your apps\n\nYou will need to bring a MacBook along with you to 
+ participate in all the practical exercises. Installation instructions will 
+ be provided one week prior to the workshop.
+LOCATION:Room #179
+DTSTART:20250521T070000Z
+DTEND:20250521T083000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:27f559d3-9d53-4214-9a62-bb9fe54a0773
+DTSTAMP:20250517T082505Z
+SUMMARY:Refactoring to Functional Kotlin. Part 1.
+DESCRIPTION:Kotlin supports both Object-oriented and functional styles of p
+ rogramming\, but what should we do when we have OO code that should be fun
+ ctional? Refactor\, of course!\n\nIn this workshop\, Nat and Duncan\, the 
+ authors of Java to Kotlin: A Refactoring Guidebook\, take a web applicatio
+ n and introduce techniques to gradually and safely migrate the code to the 
+ functional style better suited to today’s architectures. Topics include:\n
+ \n- Thinking in a functional way – Data\, Calculations\, and Actions\n- Mi
+ grating from mutable objects to immutable data classes\n- Converting busin
+ ess logic to a functional domain model\n- Where does the state live? Funct
+ ional core / imperative shell\n- Choosing between functions and methods\n- 
+ Functional error handling\n- Expand and Contract refactoring for safety ov
+ er many commits
+LOCATION:Room #180
+DTSTART:20250521T070000Z
+DTEND:20250521T083000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:82211127-026f-432f-8f18-116f73af5c3c
+DTSTAMP:20250517T082505Z
+SUMMARY:Asynchronous Programming With Kotlin Coroutines. Part 1.
+DESCRIPTION:In this workshop\, you’ll learn everything you need to know abo
+ ut how to be productive with coroutines in Kotlin. We’ll start with the ba
+ sics of asynchronous programming\, its differences from blocking code\, an
+ d the concepts of suspending functions and coroutines. We’ll explore corou
+ tine contexts\, concurrent decomposition of work via deferreds\, and struc
+ tured concurrency with coroutine scopes.\n\nThe second part of the worksho
+ p will be devoted to Kotlin Flows. We’ll study how Kotlin Flows are design
+ ed on a basic level\, learn the difference between hot and cold flows\, di
+ scuss their typical usage patterns\, and explore how they incorporate idea
+ s from reactive streams. To deepen our understanding\, we’ll also take a p
+ eek at some of the implementations behind flows and collectors. Throughout
+ \, we’ll see how they help you in writing safe and reliable concurrent sys
+ tems\, and how modern applications can use them to work with asynchronous 
+ streams of data\, manage system states\, and broadcast events.\n\nThrough 
+ this workshop\, you’ll enhance your coroutines-related vocabulary\, unders
+ tand how to spot and avoid common problems\, and be able to effectively an
+ d confidently use coroutines and flows in your own projects.
+LOCATION:Room #181
+DTSTART:20250521T070000Z
+DTEND:20250521T083000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:af0db0a9-0cb5-47ad-8eef-928ce074cfff
+DTSTAMP:20250517T082505Z
+SUMMARY:Coffee Break
+LOCATION:Room #173
+DTSTART:20250521T083000Z
+DTEND:20250521T090000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:9f96360b-800f-46d3-b6f1-4a9227adeab3
+DTSTAMP:20250517T082505Z
+SUMMARY:Spring Boot With Coroutines and Virtual Threads. Part 2.
+DESCRIPTION:If you want to get the most out of Spring Boot in terms of low 
+ latency\, high-throughput\, and resource efficiency\, there is no way arou
+ nd virtual threads and/or reactive libraries like Webflux.\n\nHowever\, bo
+ th won’t get you far: Virtual threads are limited to non-blocking operatio
+ ns\, and WebFlux — even though offering all reactive qualities\, like non-
+ blocking\, parallelism\, streaming\, etc. — will give you a lot of headach
+ es due to its complexity\, bad readability\, and maintainability.\n\nIn th
+ is workshop\, you’ll learn how Spring Boot’s coroutine support will wipe o
+ ut all the downsides of the ‘raw’ WebFlux approach or the limitations of v
+ irtual threads and provide you with the best of both worlds: non-blocking 
+ reactive characteristics without the complexity.\n\nDuring the workshop\, 
+ we will explore Kotlin’s reactive building blocks\, such as coroutines and 
+ flows\, and apply them in Spring Boot. By building a non-blocking API in S
+ pring Boot from scratch\, you’ll learn how to:\n\n- Use coroutines on top 
+ of WebFlux and/or virtual threads.\n- Perform non-blocking remote API call
+ s using WebClient or RestClient.\n- Access a database in a reactive way\, 
+ either via the R2DBC or JDBC\, including framework support.\n- Apply struc
+ tured concurrency in your business logic\, like requesting data in paralle
+ l.\n- Create an advanced streaming API based on ServerSentEvents that comb
+ ines coroutines and flow.\n\nIn addition\, we will explore virtual threads 
+ in-depth and see how they can leverage the power of coroutines even more.\
+ n\nAt the end of the workshop\, you’ll know all the ins and outs of progra
+ mming in Spring Boot with coroutines while having experienced the tremendo
+ us benefits they offer over raw virtual threads or WebFlux.\n\nWith the kn
+ owledge you gain\, you can enlighten your Spring Boot project with corouti
+ nes the very next day.
+LOCATION:Room #173
+DTSTART:20250521T090000Z
+DTEND:20250521T103000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:1763c29b-5144-4601-903f-f9f9496175bd
+DTSTAMP:20250517T082505Z
+SUMMARY:Extracting\, Transforming\, and Analyzing Data With Kotlin. Part 2.
+DESCRIPTION:This workshop is designed for all Kotlin developers who need si
+ mple and convenient tools within their native ecosystem to assist them whe
+ n working with data\, understanding its nature\, performing any necessary 
+ processing\, and presenting the results to their team or stakeholders as a 
+ report or chart.\n\nIn this workshop\, you’ll learn how to build data proc
+ essing pipelines in your applications. We’ll explore the best practices fo
+ r extracting data from various sources\, aggregating and transforming it\, 
+ and then exporting it as a collection of data classes\, displaying it as t
+ ables\, or visualizing it with insightful charts.\n\nBy the end of the wor
+ kshop\, you’ll be able to:\n\n- Load\, transform\, and export data using t
+ he Kotlin DataFrame library.\n- Visualize data with the Kandy library to e
+ ffectively convey insights.\n- Access and manipulate data from various sou
+ rces: REST APIs\, SQL databases\, CSV files\, and other tabular data.\n- H
+ andle both flat and hierarchical JSON-like data structures.\n- Boost your 
+ code written with the help of the kotlin.collections or SQL-like framework
+ s.\n- Solve practical problems by applying your skills to three real-world 
+ scenarios.\n- Present the insights in Kotlin notebooks and easily share th
+ em on GitHub Gists.
+LOCATION:Room #174
+DTSTART:20250521T090000Z
+DTEND:20250521T103000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:666c0b42-a72e-48be-90e6-0db626f65180
+DTSTAMP:20250517T082505Z
+SUMMARY:Hands-On Kotlin Web Development With Ktor. Part 2.
+DESCRIPTION:Ktor is a lightweight and flexible toolkit for building HTTP ap
+ plications. This workshop will use the Kotlin programming language\, the K
+ tor framework\, the Exposed database access library\, OpenAI\, and several 
+ other Kotlin and Java libraries to build a feature-complete AI powered web 
+ application.\n\nWe’ll start with the basics by exploring the Ktor framewor
+ k and learning how to build a simple web application using essential funct
+ ions. We’ll cover topics like handling HTTP requests\, working with WebSoc
+ kets\, database access\, authentication\, logging\, and deployment.\n\nFor 
+ testing\, we will look into the APIs that Ktor provides. Finally\, we will 
+ explore the API for writing plugins and use it to create a simple plugin f
+ or our Ktor application.\n\nBy the end of the workshop\, you’ll be able to
+ :\n  - Structure Ktor projects\n  - Test Ktor applications\n  - Create and 
+ deploy RESTful services using Ktor\n  - Integrate Ktor with external libra
+ ries\n\nThis will be a fast-paced workshop where attendees will spend most 
+ of their time coding. You will walk away armed with a cookbook of various 
+ Ktor recipes for building feature-complete AI powered web application.
+LOCATION:Room #176
+DTSTART:20250521T090000Z
+DTEND:20250521T103000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:822e887e-37ec-4252-a72e-4eb4bf29b273
+DTSTAMP:20250517T082505Z
+SUMMARY:Building Shared UI With Compose Multiplatform. Part 2.
+DESCRIPTION:Take the next step in your cross-platform Kotlin journey with C
+ ompose Multiplatform! This workshop is for developers already familiar wit
+ h the basics of Kotlin Multiplatform and Jetpack Compose who are looking t
+ o extend their skills by building a shared UI.\n\nWe’ll discuss how Compos
+ e Multiplatform works and show you how your existing Compose skills are re
+ usable across platforms. You’ll have hands-on time with a wide range of Co
+ mpose features\, focusing on how they work across different platforms. Dur
+ ing the workshop’s exercises\, you’ll work with Compose code\, explore API
+ s\, build new features\, improve accessibility\, test the UI\, and more.\n
+ \nCovering the latest available APIs and best practices\, we’ll equip you 
+ with everything you need to start using Compose Multiplatform in your own 
+ apps! Here is how the workshop will be structured:\n\nIntroduction\n- How 
+ Compose Multiplatform works\n- Running Compose on Android\, iOS\, Desktop\
+ , and Web\n- Writing basic Compose code for multiplatform use\n\nCompose b
+ uilding blocks\n- Resources (localization\, fonts\, and more)\n- Image loa
+ ding\n- ViewModels and architecture components\n- Navigation\n- Animations
+ \n- Dependency injection\n- Theming\n\nMastering Compose Multiplatform\n- 
+ Interop with native components\n- Dialogs\n- Insets\n- Accessibility\n- Te
+ sting\n\nThis workshop includes exercises for participants to complete on 
+ their own laptops. Using a MacBook is highly recommended for participation 
+ in all exercises\, as iOS applications can only be built on macOS. Detaile
+ d setup instructions will be provided prior to the workshop.
+LOCATION:Room #178
+DTSTART:20250521T090000Z
+DTEND:20250521T103000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:b9cf05ee-cc7c-4b03-8840-81cbe60e740a
+DTSTAMP:20250517T082505Z
+SUMMARY:Deep Dive Into Kotlin Multiplatform: Advanced Techniques for Seamle
+ ss Code Sharing. Part 2.
+DESCRIPTION:This is an intermediate/advanced workshop for experienced Kotli
+ n Multiplatform developers. It is aimed at developers who have built proje
+ cts with Kotlin Multiplatform and Jetpack Compose / Compose Multiplatform 
+ and now want to progress onto more advanced topics.\n\nThe workshop aims t
+ o equip attendees with the skills to write high-quality code and apps usin
+ g Kotlin Multiplatform. The workshop will address the following topics:\n\
+ nA Gentle(r) Introduction\n- Introducing an example project\n- Explaining 
+ project structure and architecture\n- Highlighting a few key libraries use
+ d in the project\n\nNative Integrations\n- Splash screens\n- Notifications
+ \n- Working with files\n\nAdvanced Kotlin Multiplatform for iOS Targets\n- 
+ Debugging Kotlin/Swift\n- Understanding and improving Kotlin/Swift interop
+ erability\n\nCode Quality\n- Code coverage with Kover (JVM-only)\n- Modula
+ rization\n\nApp Quality\n- Fixing memory leaks\n- Performance testing\n- A
+ pp size optimization\n\nManaging Workflows\n- Basics of building CI/CD pip
+ elines for your apps\n\nYou will need to bring a MacBook along with you to 
+ participate in all the practical exercises. Installation instructions will 
+ be provided one week prior to the workshop.
+LOCATION:Room #179
+DTSTART:20250521T090000Z
+DTEND:20250521T103000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:9efcaad9-f5d3-4d90-8ec8-46cd31fb4413
+DTSTAMP:20250517T082505Z
+SUMMARY:Refactoring to Functional Kotlin. Part 2.
+DESCRIPTION:Kotlin supports both Object-oriented and functional styles of p
+ rogramming\, but what should we do when we have OO code that should be fun
+ ctional? Refactor\, of course!\n\nIn this workshop\, Nat and Duncan\, the 
+ authors of Java to Kotlin: A Refactoring Guidebook\, take a web applicatio
+ n and introduce techniques to gradually and safely migrate the code to the 
+ functional style better suited to today’s architectures. Topics include:\n
+ \n- Thinking in a functional way – Data\, Calculations\, and Actions\n- Mi
+ grating from mutable objects to immutable data classes\n- Converting busin
+ ess logic to a functional domain model\n- Where does the state live? Funct
+ ional core / imperative shell\n- Choosing between functions and methods\n- 
+ Functional error handling\n- Expand and Contract refactoring for safety ov
+ er many commits
+LOCATION:Room #180
+DTSTART:20250521T090000Z
+DTEND:20250521T103000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:d65c01ad-f9b7-443b-8655-33182226dc15
+DTSTAMP:20250517T082505Z
+SUMMARY:Asynchronous Programming With Kotlin Coroutines. Part 2.
+DESCRIPTION:In this workshop\, you’ll learn everything you need to know abo
+ ut how to be productive with coroutines in Kotlin. We’ll start with the ba
+ sics of asynchronous programming\, its differences from blocking code\, an
+ d the concepts of suspending functions and coroutines. We’ll explore corou
+ tine contexts\, concurrent decomposition of work via deferreds\, and struc
+ tured concurrency with coroutine scopes.\n\nThe second part of the worksho
+ p will be devoted to Kotlin Flows. We’ll study how Kotlin Flows are design
+ ed on a basic level\, learn the difference between hot and cold flows\, di
+ scuss their typical usage patterns\, and explore how they incorporate idea
+ s from reactive streams. To deepen our understanding\, we’ll also take a p
+ eek at some of the implementations behind flows and collectors. Throughout
+ \, we’ll see how they help you in writing safe and reliable concurrent sys
+ tems\, and how modern applications can use them to work with asynchronous 
+ streams of data\, manage system states\, and broadcast events.\n\nThrough 
+ this workshop\, you’ll enhance your coroutines-related vocabulary\, unders
+ tand how to spot and avoid common problems\, and be able to effectively an
+ d confidently use coroutines and flows in your own projects.
+LOCATION:Room #181
+DTSTART:20250521T090000Z
+DTEND:20250521T103000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:d52ccdfe-539a-4b98-9b18-3f5122549d20
+DTSTAMP:20250517T082505Z
+SUMMARY:Lunch
+LOCATION:Room #173
+DTSTART:20250521T103000Z
+DTEND:20250521T113000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:6a80fc51-e2ba-437b-b019-055e9bde6470
+DTSTAMP:20250517T082505Z
+SUMMARY:Spring Boot With Coroutines and Virtual Threads. Part 3.
+DESCRIPTION:If you want to get the most out of Spring Boot in terms of low 
+ latency\, high-throughput\, and resource efficiency\, there is no way arou
+ nd virtual threads and/or reactive libraries like Webflux.\n\nHowever\, bo
+ th won’t get you far: Virtual threads are limited to non-blocking operatio
+ ns\, and WebFlux — even though offering all reactive qualities\, like non-
+ blocking\, parallelism\, streaming\, etc. — will give you a lot of headach
+ es due to its complexity\, bad readability\, and maintainability.\n\nIn th
+ is workshop\, you’ll learn how Spring Boot’s coroutine support will wipe o
+ ut all the downsides of the ‘raw’ WebFlux approach or the limitations of v
+ irtual threads and provide you with the best of both worlds: non-blocking 
+ reactive characteristics without the complexity.\n\nDuring the workshop\, 
+ we will explore Kotlin’s reactive building blocks\, such as coroutines and 
+ flows\, and apply them in Spring Boot. By building a non-blocking API in S
+ pring Boot from scratch\, you’ll learn how to:\n\n- Use coroutines on top 
+ of WebFlux and/or virtual threads.\n- Perform non-blocking remote API call
+ s using WebClient or RestClient.\n- Access a database in a reactive way\, 
+ either via the R2DBC or JDBC\, including framework support.\n- Apply struc
+ tured concurrency in your business logic\, like requesting data in paralle
+ l.\n- Create an advanced streaming API based on ServerSentEvents that comb
+ ines coroutines and flow.\n\nIn addition\, we will explore virtual threads 
+ in-depth and see how they can leverage the power of coroutines even more.\
+ n\nAt the end of the workshop\, you’ll know all the ins and outs of progra
+ mming in Spring Boot with coroutines while having experienced the tremendo
+ us benefits they offer over raw virtual threads or WebFlux.\n\nWith the kn
+ owledge you gain\, you can enlighten your Spring Boot project with corouti
+ nes the very next day.
+LOCATION:Room #173
+DTSTART:20250521T113000Z
+DTEND:20250521T130000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:63e0020c-96f2-4169-85ac-5cceaae6e74c
+DTSTAMP:20250517T082505Z
+SUMMARY:Extracting\, Transforming\, and Analyzing Data With Kotlin. Part 3.
+DESCRIPTION:This workshop is designed for all Kotlin developers who need si
+ mple and convenient tools within their native ecosystem to assist them whe
+ n working with data\, understanding its nature\, performing any necessary 
+ processing\, and presenting the results to their team or stakeholders as a 
+ report or chart.\n\nIn this workshop\, you’ll learn how to build data proc
+ essing pipelines in your applications. We’ll explore the best practices fo
+ r extracting data from various sources\, aggregating and transforming it\, 
+ and then exporting it as a collection of data classes\, displaying it as t
+ ables\, or visualizing it with insightful charts.\n\nBy the end of the wor
+ kshop\, you’ll be able to:\n\n- Load\, transform\, and export data using t
+ he Kotlin DataFrame library.\n- Visualize data with the Kandy library to e
+ ffectively convey insights.\n- Access and manipulate data from various sou
+ rces: REST APIs\, SQL databases\, CSV files\, and other tabular data.\n- H
+ andle both flat and hierarchical JSON-like data structures.\n- Boost your 
+ code written with the help of the kotlin.collections or SQL-like framework
+ s.\n- Solve practical problems by applying your skills to three real-world 
+ scenarios.\n- Present the insights in Kotlin notebooks and easily share th
+ em on GitHub Gists.
+LOCATION:Room #174
+DTSTART:20250521T113000Z
+DTEND:20250521T130000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:50847da8-5d21-416e-9e5f-5d6d337f99c0
+DTSTAMP:20250517T082505Z
+SUMMARY:Hands-On Kotlin Web Development With Ktor. Part 3.
+DESCRIPTION:Ktor is a lightweight and flexible toolkit for building HTTP ap
+ plications. This workshop will use the Kotlin programming language\, the K
+ tor framework\, the Exposed database access library\, OpenAI\, and several 
+ other Kotlin and Java libraries to build a feature-complete AI powered web 
+ application.\n\nWe’ll start with the basics by exploring the Ktor framewor
+ k and learning how to build a simple web application using essential funct
+ ions. We’ll cover topics like handling HTTP requests\, working with WebSoc
+ kets\, database access\, authentication\, logging\, and deployment.\n\nFor 
+ testing\, we will look into the APIs that Ktor provides. Finally\, we will 
+ explore the API for writing plugins and use it to create a simple plugin f
+ or our Ktor application.\n\nBy the end of the workshop\, you’ll be able to
+ :\n  - Structure Ktor projects\n  - Test Ktor applications\n  - Create and 
+ deploy RESTful services using Ktor\n  - Integrate Ktor with external libra
+ ries\n\nThis will be a fast-paced workshop where attendees will spend most 
+ of their time coding. You will walk away armed with a cookbook of various 
+ Ktor recipes for building feature-complete AI powered web application.
+LOCATION:Room #176
+DTSTART:20250521T113000Z
+DTEND:20250521T130000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:6f58991f-2fd7-4542-9090-1e2d926e918e
+DTSTAMP:20250517T082505Z
+SUMMARY:Building Shared UI With Compose Multiplatform. Part 3.
+DESCRIPTION:Take the next step in your cross-platform Kotlin journey with C
+ ompose Multiplatform! This workshop is for developers already familiar wit
+ h the basics of Kotlin Multiplatform and Jetpack Compose who are looking t
+ o extend their skills by building a shared UI.\n\nWe’ll discuss how Compos
+ e Multiplatform works and show you how your existing Compose skills are re
+ usable across platforms. You’ll have hands-on time with a wide range of Co
+ mpose features\, focusing on how they work across different platforms. Dur
+ ing the workshop’s exercises\, you’ll work with Compose code\, explore API
+ s\, build new features\, improve accessibility\, test the UI\, and more.\n
+ \nCovering the latest available APIs and best practices\, we’ll equip you 
+ with everything you need to start using Compose Multiplatform in your own 
+ apps! Here is how the workshop will be structured:\n\nIntroduction\n- How 
+ Compose Multiplatform works\n- Running Compose on Android\, iOS\, Desktop\
+ , and Web\n- Writing basic Compose code for multiplatform use\n\nCompose b
+ uilding blocks\n- Resources (localization\, fonts\, and more)\n- Image loa
+ ding\n- ViewModels and architecture components\n- Navigation\n- Animations
+ \n- Dependency injection\n- Theming\n\nMastering Compose Multiplatform\n- 
+ Interop with native components\n- Dialogs\n- Insets\n- Accessibility\n- Te
+ sting\n\nThis workshop includes exercises for participants to complete on 
+ their own laptops. Using a MacBook is highly recommended for participation 
+ in all exercises\, as iOS applications can only be built on macOS. Detaile
+ d setup instructions will be provided prior to the workshop.
+LOCATION:Room #178
+DTSTART:20250521T113000Z
+DTEND:20250521T130000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:ea77f109-db57-459d-9633-634d0ce2658e
+DTSTAMP:20250517T082505Z
+SUMMARY:Deep Dive Into Kotlin Multiplatform: Advanced Techniques for Seamle
+ ss Code Sharing. Part 3.
+DESCRIPTION:This is an intermediate/advanced workshop for experienced Kotli
+ n Multiplatform developers. It is aimed at developers who have built proje
+ cts with Kotlin Multiplatform and Jetpack Compose / Compose Multiplatform 
+ and now want to progress onto more advanced topics.\n\nThe workshop aims t
+ o equip attendees with the skills to write high-quality code and apps usin
+ g Kotlin Multiplatform. The workshop will address the following topics:\n\
+ nA Gentle(r) Introduction\n- Introducing an example project\n- Explaining 
+ project structure and architecture\n- Highlighting a few key libraries use
+ d in the project\n\nNative Integrations\n- Splash screens\n- Notifications
+ \n- Working with files\n\nAdvanced Kotlin Multiplatform for iOS Targets\n- 
+ Debugging Kotlin/Swift\n- Understanding and improving Kotlin/Swift interop
+ erability\n\nCode Quality\n- Code coverage with Kover (JVM-only)\n- Modula
+ rization\n\nApp Quality\n- Fixing memory leaks\n- Performance testing\n- A
+ pp size optimization\n\nManaging Workflows\n- Basics of building CI/CD pip
+ elines for your apps\n\nYou will need to bring a MacBook along with you to 
+ participate in all the practical exercises. Installation instructions will 
+ be provided one week prior to the workshop.
+LOCATION:Room #179
+DTSTART:20250521T113000Z
+DTEND:20250521T130000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:b91bed34-37d7-4c9f-a6f9-4fb89f582400
+DTSTAMP:20250517T082505Z
+SUMMARY:Refactoring to Functional Kotlin. Part 3.
+DESCRIPTION:Kotlin supports both Object-oriented and functional styles of p
+ rogramming\, but what should we do when we have OO code that should be fun
+ ctional? Refactor\, of course!\n\nIn this workshop\, Nat and Duncan\, the 
+ authors of Java to Kotlin: A Refactoring Guidebook\, take a web applicatio
+ n and introduce techniques to gradually and safely migrate the code to the 
+ functional style better suited to today’s architectures. Topics include:\n
+ \n- Thinking in a functional way – Data\, Calculations\, and Actions\n- Mi
+ grating from mutable objects to immutable data classes\n- Converting busin
+ ess logic to a functional domain model\n- Where does the state live? Funct
+ ional core / imperative shell\n- Choosing between functions and methods\n- 
+ Functional error handling\n- Expand and Contract refactoring for safety ov
+ er many commits
+LOCATION:Room #180
+DTSTART:20250521T113000Z
+DTEND:20250521T130000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:37e868c7-46fc-4a03-82d4-09390d27bf66
+DTSTAMP:20250517T082505Z
+SUMMARY:Asynchronous Programming With Kotlin Coroutines. Part 3.
+DESCRIPTION:In this workshop\, you’ll learn everything you need to know abo
+ ut how to be productive with coroutines in Kotlin. We’ll start with the ba
+ sics of asynchronous programming\, its differences from blocking code\, an
+ d the concepts of suspending functions and coroutines. We’ll explore corou
+ tine contexts\, concurrent decomposition of work via deferreds\, and struc
+ tured concurrency with coroutine scopes.\n\nThe second part of the worksho
+ p will be devoted to Kotlin Flows. We’ll study how Kotlin Flows are design
+ ed on a basic level\, learn the difference between hot and cold flows\, di
+ scuss their typical usage patterns\, and explore how they incorporate idea
+ s from reactive streams. To deepen our understanding\, we’ll also take a p
+ eek at some of the implementations behind flows and collectors. Throughout
+ \, we’ll see how they help you in writing safe and reliable concurrent sys
+ tems\, and how modern applications can use them to work with asynchronous 
+ streams of data\, manage system states\, and broadcast events.\n\nThrough 
+ this workshop\, you’ll enhance your coroutines-related vocabulary\, unders
+ tand how to spot and avoid common problems\, and be able to effectively an
+ d confidently use coroutines and flows in your own projects.
+LOCATION:Room #181
+DTSTART:20250521T113000Z
+DTEND:20250521T130000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:ac3fe5ae-2387-45f4-9c7e-ef22cbc1fb9d
+DTSTAMP:20250517T082505Z
+SUMMARY:Coffee Break
+LOCATION:Room #173
+DTSTART:20250521T130000Z
+DTEND:20250521T133000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:a2206e56-046b-4f73-9d2b-301020f339a1
+DTSTAMP:20250517T082505Z
+SUMMARY:Spring Boot With Coroutines and Virtual Threads. Part 4.
+DESCRIPTION:If you want to get the most out of Spring Boot in terms of low 
+ latency\, high-throughput\, and resource efficiency\, there is no way arou
+ nd virtual threads and/or reactive libraries like Webflux.\n\nHowever\, bo
+ th won’t get you far: Virtual threads are limited to non-blocking operatio
+ ns\, and WebFlux — even though offering all reactive qualities\, like non-
+ blocking\, parallelism\, streaming\, etc. — will give you a lot of headach
+ es due to its complexity\, bad readability\, and maintainability.\n\nIn th
+ is workshop\, you’ll learn how Spring Boot’s coroutine support will wipe o
+ ut all the downsides of the ‘raw’ WebFlux approach or the limitations of v
+ irtual threads and provide you with the best of both worlds: non-blocking 
+ reactive characteristics without the complexity.\n\nDuring the workshop\, 
+ we will explore Kotlin’s reactive building blocks\, such as coroutines and 
+ flows\, and apply them in Spring Boot. By building a non-blocking API in S
+ pring Boot from scratch\, you’ll learn how to:\n\n- Use coroutines on top 
+ of WebFlux and/or virtual threads.\n- Perform non-blocking remote API call
+ s using WebClient or RestClient.\n- Access a database in a reactive way\, 
+ either via the R2DBC or JDBC\, including framework support.\n- Apply struc
+ tured concurrency in your business logic\, like requesting data in paralle
+ l.\n- Create an advanced streaming API based on ServerSentEvents that comb
+ ines coroutines and flow.\n\nIn addition\, we will explore virtual threads 
+ in-depth and see how they can leverage the power of coroutines even more.\
+ n\nAt the end of the workshop\, you’ll know all the ins and outs of progra
+ mming in Spring Boot with coroutines while having experienced the tremendo
+ us benefits they offer over raw virtual threads or WebFlux.\n\nWith the kn
+ owledge you gain\, you can enlighten your Spring Boot project with corouti
+ nes the very next day.
+LOCATION:Room #173
+DTSTART:20250521T133000Z
+DTEND:20250521T150000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:217138bc-4226-45af-a87b-fe7ec83c60cf
+DTSTAMP:20250517T082505Z
+SUMMARY:Extracting\, Transforming\, and Analyzing Data With Kotlin. Part 4.
+DESCRIPTION:This workshop is designed for all Kotlin developers who need si
+ mple and convenient tools within their native ecosystem to assist them whe
+ n working with data\, understanding its nature\, performing any necessary 
+ processing\, and presenting the results to their team or stakeholders as a 
+ report or chart.\n\nIn this workshop\, you’ll learn how to build data proc
+ essing pipelines in your applications. We’ll explore the best practices fo
+ r extracting data from various sources\, aggregating and transforming it\, 
+ and then exporting it as a collection of data classes\, displaying it as t
+ ables\, or visualizing it with insightful charts.\n\nBy the end of the wor
+ kshop\, you’ll be able to:\n\n- Load\, transform\, and export data using t
+ he Kotlin DataFrame library.\n- Visualize data with the Kandy library to e
+ ffectively convey insights.\n- Access and manipulate data from various sou
+ rces: REST APIs\, SQL databases\, CSV files\, and other tabular data.\n- H
+ andle both flat and hierarchical JSON-like data structures.\n- Boost your 
+ code written with the help of the kotlin.collections or SQL-like framework
+ s.\n- Solve practical problems by applying your skills to three real-world 
+ scenarios.\n- Present the insights in Kotlin notebooks and easily share th
+ em on GitHub Gists.
+LOCATION:Room #174
+DTSTART:20250521T133000Z
+DTEND:20250521T150000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:a3097171-3dbe-4f15-b2db-a4e3802a3e3e
+DTSTAMP:20250517T082505Z
+SUMMARY:Hands-On Kotlin Web Development With Ktor. Part 4.
+DESCRIPTION:Ktor is a lightweight and flexible toolkit for building HTTP ap
+ plications. This workshop will use the Kotlin programming language\, the K
+ tor framework\, the Exposed database access library\, OpenAI\, and several 
+ other Kotlin and Java libraries to build a feature-complete AI powered web 
+ application.\n\nWe’ll start with the basics by exploring the Ktor framewor
+ k and learning how to build a simple web application using essential funct
+ ions. We’ll cover topics like handling HTTP requests\, working with WebSoc
+ kets\, database access\, authentication\, logging\, and deployment.\n\nFor 
+ testing\, we will look into the APIs that Ktor provides. Finally\, we will 
+ explore the API for writing plugins and use it to create a simple plugin f
+ or our Ktor application.\n\nBy the end of the workshop\, you’ll be able to
+ :\n  - Structure Ktor projects\n  - Test Ktor applications\n  - Create and 
+ deploy RESTful services using Ktor\n  - Integrate Ktor with external libra
+ ries\n\nThis will be a fast-paced workshop where attendees will spend most 
+ of their time coding. You will walk away armed with a cookbook of various 
+ Ktor recipes for building feature-complete AI powered web application.
+LOCATION:Room #176
+DTSTART:20250521T133000Z
+DTEND:20250521T150000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:66d66edc-436a-4ad0-a694-b98a0cc5dbcb
+DTSTAMP:20250517T082505Z
+SUMMARY:Building Shared UI With Compose Multiplatform. Part 4.
+DESCRIPTION:Take the next step in your cross-platform Kotlin journey with C
+ ompose Multiplatform! This workshop is for developers already familiar wit
+ h the basics of Kotlin Multiplatform and Jetpack Compose who are looking t
+ o extend their skills by building a shared UI.\n\nWe’ll discuss how Compos
+ e Multiplatform works and show you how your existing Compose skills are re
+ usable across platforms. You’ll have hands-on time with a wide range of Co
+ mpose features\, focusing on how they work across different platforms. Dur
+ ing the workshop’s exercises\, you’ll work with Compose code\, explore API
+ s\, build new features\, improve accessibility\, test the UI\, and more.\n
+ \nCovering the latest available APIs and best practices\, we’ll equip you 
+ with everything you need to start using Compose Multiplatform in your own 
+ apps! Here is how the workshop will be structured:\n\nIntroduction\n- How 
+ Compose Multiplatform works\n- Running Compose on Android\, iOS\, Desktop\
+ , and Web\n- Writing basic Compose code for multiplatform use\n\nCompose b
+ uilding blocks\n- Resources (localization\, fonts\, and more)\n- Image loa
+ ding\n- ViewModels and architecture components\n- Navigation\n- Animations
+ \n- Dependency injection\n- Theming\n\nMastering Compose Multiplatform\n- 
+ Interop with native components\n- Dialogs\n- Insets\n- Accessibility\n- Te
+ sting\n\nThis workshop includes exercises for participants to complete on 
+ their own laptops. Using a MacBook is highly recommended for participation 
+ in all exercises\, as iOS applications can only be built on macOS. Detaile
+ d setup instructions will be provided prior to the workshop.
+LOCATION:Room #178
+DTSTART:20250521T133000Z
+DTEND:20250521T150000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:cfb8fa0e-4891-4dd6-90ed-243b720250d4
+DTSTAMP:20250517T082505Z
+SUMMARY:Deep Dive Into Kotlin Multiplatform: Advanced Techniques for Seamle
+ ss Code Sharing. Part 4.
+DESCRIPTION:This is an intermediate/advanced workshop for experienced Kotli
+ n Multiplatform developers. It is aimed at developers who have built proje
+ cts with Kotlin Multiplatform and Jetpack Compose / Compose Multiplatform 
+ and now want to progress onto more advanced topics.\n\nThe workshop aims t
+ o equip attendees with the skills to write high-quality code and apps usin
+ g Kotlin Multiplatform. The workshop will address the following topics:\n\
+ nA Gentle(r) Introduction\n- Introducing an example project\n- Explaining 
+ project structure and architecture\n- Highlighting a few key libraries use
+ d in the project\n\nNative Integrations\n- Splash screens\n- Notifications
+ \n- Working with files\n\nAdvanced Kotlin Multiplatform for iOS Targets\n- 
+ Debugging Kotlin/Swift\n- Understanding and improving Kotlin/Swift interop
+ erability\n\nCode Quality\n- Code coverage with Kover (JVM-only)\n- Modula
+ rization\n\nApp Quality\n- Fixing memory leaks\n- Performance testing\n- A
+ pp size optimization\n\nManaging Workflows\n- Basics of building CI/CD pip
+ elines for your apps\n\nYou will need to bring a MacBook along with you to 
+ participate in all the practical exercises. Installation instructions will 
+ be provided one week prior to the workshop.
+LOCATION:Room #179
+DTSTART:20250521T133000Z
+DTEND:20250521T150000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:0fd945b8-b28d-40b8-89eb-fffd705eacfd
+DTSTAMP:20250517T082505Z
+SUMMARY:Refactoring to Functional Kotlin. Part 4.
+DESCRIPTION:Kotlin supports both Object-oriented and functional styles of p
+ rogramming\, but what should we do when we have OO code that should be fun
+ ctional? Refactor\, of course!\n\nIn this workshop\, Nat and Duncan\, the 
+ authors of Java to Kotlin: A Refactoring Guidebook\, take a web applicatio
+ n and introduce techniques to gradually and safely migrate the code to the 
+ functional style better suited to today’s architectures. Topics include:\n
+ \n- Thinking in a functional way – Data\, Calculations\, and Actions\n- Mi
+ grating from mutable objects to immutable data classes\n- Converting busin
+ ess logic to a functional domain model\n- Where does the state live? Funct
+ ional core / imperative shell\n- Choosing between functions and methods\n- 
+ Functional error handling\n- Expand and Contract refactoring for safety ov
+ er many commits
+LOCATION:Room #180
+DTSTART:20250521T133000Z
+DTEND:20250521T150000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:db9ec41a-4cee-48d1-8af2-be5328e0caff
+DTSTAMP:20250517T082505Z
+SUMMARY:Asynchronous Programming With Kotlin Coroutines. Part 4.
+DESCRIPTION:In this workshop\, you’ll learn everything you need to know abo
+ ut how to be productive with coroutines in Kotlin. We’ll start with the ba
+ sics of asynchronous programming\, its differences from blocking code\, an
+ d the concepts of suspending functions and coroutines. We’ll explore corou
+ tine contexts\, concurrent decomposition of work via deferreds\, and struc
+ tured concurrency with coroutine scopes.\n\nThe second part of the worksho
+ p will be devoted to Kotlin Flows. We’ll study how Kotlin Flows are design
+ ed on a basic level\, learn the difference between hot and cold flows\, di
+ scuss their typical usage patterns\, and explore how they incorporate idea
+ s from reactive streams. To deepen our understanding\, we’ll also take a p
+ eek at some of the implementations behind flows and collectors. Throughout
+ \, we’ll see how they help you in writing safe and reliable concurrent sys
+ tems\, and how modern applications can use them to work with asynchronous 
+ streams of data\, manage system states\, and broadcast events.\n\nThrough 
+ this workshop\, you’ll enhance your coroutines-related vocabulary\, unders
+ tand how to spot and avoid common problems\, and be able to effectively an
+ d confidently use coroutines and flows in your own projects.
+LOCATION:Room #181
+DTSTART:20250521T133000Z
+DTEND:20250521T150000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:ac1ae0f2-6f94-4c53-a8e3-715fbb16e6ac
+DTSTAMP:20250517T082505Z
+SUMMARY:Registration
+LOCATION:Keynote room
+DTSTART:20250522T053000Z
+DTEND:20250522T070000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:cbcdd74b-0d3e-4736-90a7-0d65f8f3a2c4
+DTSTAMP:20250517T082505Z
+SUMMARY:Opening keynote
+LOCATION:Keynote room
+DTSTART:20250522T070000Z
+DTEND:20250522T080000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:9a64c473-86be-4beb-ae72-153d6ad55a69
+DTSTAMP:20250517T082505Z
+SUMMARY:Break
+LOCATION:Hall D2
+DTSTART:20250522T080000Z
+DTEND:20250522T081500Z
+END:VEVENT
+BEGIN:VEVENT
+UID:6badd369-e3b9-453d-8809-40725207c9ef
+DTSTAMP:20250517T082505Z
+SUMMARY:Kotlin and Spring: The modern server side stack
+DESCRIPTION:Rod will discuss his experience switching from Java to Kotlin w
+ hile building a server-side application implementing structured RAG.\n\nHe
+ 'll show code in a real application and reflect on the positives and negat
+ ives: overwhelmingly\, positives. \n\nKotlin brings a modern language to a 
+ mature\, hardened ecosystem and productive\, high quality framework. The r
+ esult can be a thing of beauty. \n\n
+LOCATION:Keynote room
+DTSTART:20250522T081500Z
+DTEND:20250522T090000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:4fd25ae7-c3ad-4ece-869a-91b750d07cb6
+DTSTAMP:20250517T082505Z
+SUMMARY:Code Quality at Scale: Future-Proof Your Android Codebase with KtLi
+ nt and Detekt
+DESCRIPTION:Managing a large\, multi-team Kotlin codebase that has grown an
+ d evolved over eight years is no small feat. Introducing architectural cha
+ nges and ensuring alignment across multiple autonomous teams adds another 
+ layer of complexity.\n\nIn this talk\, you’ll learn strategies to build mo
+ re robust\, maintainable\, and future-ready codebases\, whether you’re sca
+ ling a project or working in a large team. We’ll show how integrating stat
+ ic analysis tools like Ktlint and Detekt into your CI pipeline can help yo
+ u establish consistent coding standards and systematically reduce technica
+ l debt. As a bonus\, we’ll explore how we were able to leverage custom Det
+ ekt rules to help us safely enable r8 in a multimodule Android app.
+LOCATION:Hall D2
+DTSTART:20250522T081500Z
+DTEND:20250522T090000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:86f76833-e236-4fa3-aa4c-78a05b474a48
+DTSTAMP:20250517T082505Z
+SUMMARY:Deploying Kotlin Multiplatform at Google Workspace
+DESCRIPTION:I like to talk you through some of the bugs we found and optimi
+ zations as we launched Kotlin Multiplatform to some users with Google Work
+ space.   We'll talk through some bugs\, performance issues and fixes with 
+ comparisons to ObjectiveC.   As well as a Q/A with the developers of worke
+ d on this.
+LOCATION:Auditorium 15
+DTSTART:20250522T081500Z
+DTEND:20250522T090000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:db4d347f-623b-461e-b312-c4d66f22f114
+DTSTAMP:20250517T082505Z
+SUMMARY:Building an Agentic Platform with Kotlin: Powering one of Europe's 
+ Largest LLM Bot
+DESCRIPTION:How does one build a multi-tenant\, multi-channel enterprise ap
+ plication for multiple European countries with a new and non-deterministic 
+ technology such as LLMs?\n\nThis is the question my team and I asked ourse
+ lves over a year and a half ago.\n\nJoin me in my talk to discover how we 
+ helped build one of Europe's biggest LLM chatbots and how this led to Arc\
+ , an open-sourced Kotlin-based AI framework that is now part of the Eclips
+ e Foundation.\n\nWhat makes Arc interesting is how it combines Kotlin DSL 
+ and scripting to enable developers to build LLM-powered agents fast and ef
+ ficiently\, and most importantly\, ready for the enterprise.\n\nIn this se
+ ssion\, we will go through the journey of how and why the framework was bo
+ rn.\n\nWe'll take a look at some of the design decisions that were made an
+ d some of the key features of the framework\, such as observability\, memo
+ ry\, and tools\, highlighting how we tackle some of our biggest challenges
+ .\n\nAt the end of this session\, you should have a good understanding of 
+ the challenges in building an LLM application at this scale\, as well as s
+ ome strategies for solving these problems.
+LOCATION:Auditorium 11+12
+DTSTART:20250522T081500Z
+DTEND:20250522T090000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:1ee4e31e-e8fe-40a7-838c-577debd64608
+DTSTAMP:20250517T082505Z
+SUMMARY:Compose Prototyping in Kotlin Notebooks
+DESCRIPTION:With its unique mix of markdown and REPL-like nature\, Kotlin N
+ otebooks is an excellent way to document or explore a new idea or an exist
+ ing codebase. But did you know that Notebooks also support Compose and Swi
+ ng?\n\nIn this lighting talk you will see how you can set up Notebooks to 
+ access existing UI code or write new from scratch\, with the result being 
+ shown directly in the notebook. And as a bonus on top\, all of this can sh
+ ared directly as documentation on Github or in Gists.
+LOCATION:Auditorium 10 (Lightning talks)
+DTSTART:20250522T081500Z
+DTEND:20250522T083000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:0643cb39-3792-4a74-9dde-9a01e895be55
+DTSTAMP:20250517T082505Z
+SUMMARY:Setting up your Mac for Kotlin Multiplatform Development
+DESCRIPTION:If you have not built with KMP yet\, you will probably have to 
+ install some software (e.g.\, Xcode\, iOS Simulator\, Android Studio Meerk
+ at | 2024.3.1 or later). We recommend that you come to KotlinConf with all 
+ of your KMP software installed as these applications are large and may tak
+ e hours to install. But for those who need some help in getting everything 
+ set up\, please join us.
+LOCATION:Room #173
+DTSTART:20250522T081500Z
+DTEND:20250522T090000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:377de1d9-e0f0-41c3-a129-edb0c8d359bb
+DTSTAMP:20250517T082505Z
+SUMMARY:State of Kotlin/Wasm and Compose Multiplatform for Web on Modern Br
+ owsers 
+DESCRIPTION:Kotlin/Wasm and Compose Multiplatform for web allow Kotlin Mult
+ iplatform developers to extend their reach to the modern browser. In this 
+ lightning talk\, I’ll describe the current state of the platform and what 
+ the JetBrains team is working on as we prepare for the Beta release.
+LOCATION:Auditorium 10 (Lightning talks)
+DTSTART:20250522T084500Z
+DTEND:20250522T090000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:db9849d4-a527-46f0-9626-83009b74775f
+DTSTAMP:20250517T082505Z
+SUMMARY:Break
+LOCATION:Hall D2
+DTSTART:20250522T090000Z
+DTEND:20250522T091500Z
+END:VEVENT
+BEGIN:VEVENT
+UID:41942b25-8796-4063-9c69-6a501fcb74d2
+DTSTAMP:20250517T082505Z
+SUMMARY:Rich Errors in Kotlin
+DESCRIPTION:Kotlin's nullability model is one of its core features. In this 
+ talk\, we’ll explore how this model can be generalized to restricted union 
+ types specifically designed for handling error cases. \n\nAdditionally\, w
+ e’ll discuss how errors can currently be represented in Kotlin\, covering 
+ approaches such as nullable types\, exceptions\, sealed hierarchies\, and 
+ Result-like classes.
+LOCATION:Keynote room
+DTSTART:20250522T091500Z
+DTEND:20250522T100000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:de59cf75-ac41-42be-9b57-ed64d8675343
+DTSTAMP:20250517T082505Z
+SUMMARY:What’s new in Amper
+DESCRIPTION:Amper is an experimental\, standalone build tool for the Kotlin 
+ Multiplatform and JVM ecosystem from JetBrains. In this talk\, we'll look 
+ at what Amper is already capable of. We’ll dip our toes together into the 
+ design principles behind Amper\, and see how they find their reflection in 
+ the major features\, choices and tradeoffs of Amper.\n\nAnd of course - I’
+ ll share a sneak peek into what the team is cooking\, and what one might e
+ xpect from Amper in the future!
+LOCATION:Hall D2
+DTSTART:20250522T091500Z
+DTEND:20250522T100000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:3cafb587-5631-4fad-9b13-128e6bb31ac6
+DTSTAMP:20250517T082505Z
+SUMMARY:Next level Kotlin support in Spring Boot 4
+DESCRIPTION:Spring and Kotlin teams collaborate to bring the Kotlin support 
+ to the next level in the upcoming Spring Boot 4 release\, based on Spring 
+ Framework 7\, to be released at the end of 2025.\n\nIn this brand new talk
+ \, Sébastien will share new features that intend to improve the developer 
+ experience and runtime efficiency of Spring Boot applications for Kotlin d
+ evelopers.\n\nHe will cover the new Kotlin 2 baseline\, runtime efficiency 
+ improvements\, better null-safety via JSpecify\, GraalVM native image spec
+ ial Kotlin support\, new DSLs\, new Kotlin documentation and Spring AI Kot
+ lin support.
+LOCATION:Auditorium 15
+DTSTART:20250522T091500Z
+DTEND:20250522T100000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:70f25fa2-9214-4bec-b517-7de20f168e4e
+DTSTAMP:20250517T082505Z
+SUMMARY:Creative UIs with Compose
+DESCRIPTION:While most folks associate Compose UI with Material\, its API a
+ llows us to be more expressive than ever before.\n\nMobile UIs have become 
+ homogenized and stale\, but video games continue to provide a wealth of in
+ novation and creativity.\n\nIn this session we'll recreate a complex user 
+ interface from the game Persona 5 to showcase how to really push Compose b
+ eyond Material Design. Topics include:\n- Drawing custom shapes\n- Animati
+ ng path data\n- Non-standard shapes in LazyColumn/LazyRow\n- Custom effect
+ s inside LazyColumn/LazyRow\n- Remaining usable and accessible when not us
+ ing Material\n- How/why video games can be a source of inspiration
+LOCATION:Auditorium 11+12
+DTSTART:20250522T091500Z
+DTEND:20250522T100000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:cfaa9040-0fce-4478-aeda-1dba86baa1df
+DTSTAMP:20250517T082505Z
+SUMMARY:Model Context Protocol in Kotlin
+DESCRIPTION:MCP is an open protocol that standardizes how applications prov
+ ide context to LLMs. We've created a Kotlin library that allows you to use 
+ this protocol and connect AI models to tooling\, like IDEs. Now we will se
+ e how it works in practice.
+LOCATION:Auditorium 10 (Lightning talks)
+DTSTART:20250522T091500Z
+DTEND:20250522T093000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:d5bdfe6e-5ee7-4dc9-8884-a898a984e66f
+DTSTAMP:20250517T082505Z
+SUMMARY:Kotlin's Gam[e]bit: LLM-less AI for Board Games
+DESCRIPTION:Discover how Kotlin can power AI without relying on large langu
+ age models. In this session\, we'll explore preparing data using Kotlin No
+ tebooks\, training machine learning models directly in Kotlin\, and implem
+ enting a strategy-driven bot for an online board game. Whether you're a Ko
+ tlin enthusiast or curious about alternative approaches to AI\, this talk 
+ will show how Kotlin shines as a tool for building efficient\, specialized 
+ AI systems
+LOCATION:Auditorium 10 (Lightning talks)
+DTSTART:20250522T094500Z
+DTEND:20250522T100000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:82ff87d8-e54e-4021-9190-9ba9a2588146
+DTSTAMP:20250517T082505Z
+SUMMARY:Lunch
+LOCATION:Keynote room
+DTSTART:20250522T100000Z
+DTEND:20250522T110000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:3229f2e6-32da-4e08-bf0f-d74662cb9afa
+DTSTAMP:20250517T082505Z
+SUMMARY:From 0 to h-AI-ro: high-speed track to AI for Kotlin developers
+DESCRIPTION:With the advent of ChatGPT and other generative AI models\, art
+ ificial intelligence has taken a giant leap forward\, unlocking possibilit
+ ies beyond our imagination while simultaneously challenging the establishe
+ d way of doing. How does this exciting (r?)evolution impact us Kotlin deve
+ lopers?\n\nIn this session\, we'll take a deep dive into the world of (gen
+ erative) AI — giving you a clear and practical understanding of key termin
+ ology\, concepts\, and frameworks relevant to the Kotlin ecosystem\, inclu
+ ding powerful tools like Kotlin notebooks.\n\nGet to know:\n- Generative A
+ I 101:  Get a hands-on introduction to the core concepts of modern AI — fr
+ om Large Language Models (LLMs) and Natural Language Processing (NLP) to e
+ mbeddings\, vector databases\, Retrieval-Augmented Generation (RAG)\, Tool
+ s\, and Prompt Engineering.\n\n- Agentic AI: Go beyond simple prompts and 
+ tool calls — discover how to build intelligent\, autonomous Agents using t
+ he Model Context Protocol (MCP) to orchestrate complex\, context-aware beh
+ avior.\n\n- Real-world integration:  Learn how to bring AI into your Kotli
+ n applications — both server-side and mobile — using frameworks like LangC
+ hain4j\, Spring AI\, and MCP clients and servers.\n \nThrough interactive 
+ examples and live coding\, you will gain insights into how Kotlin can be l
+ everaged with cutting-edge AI technologies\, opening doors to innovative p
+ ossibilities in content generation\, natural language processing\, compute
+ r vision\, and more.\n\nBy the end of this session\, you will emerge with 
+ a comprehensive understanding of AI's potential within the Kotlin ecosyste
+ m. Armed with this knowledge\, you'll be prepared to embrace the future as 
+ a H-AI-ro!
+LOCATION:Keynote room
+DTSTART:20250522T110000Z
+DTEND:20250522T114500Z
+END:VEVENT
+BEGIN:VEVENT
+UID:be76c6eb-0b60-4f57-a0dc-9f78860e5326
+DTSTAMP:20250517T082505Z
+SUMMARY:The Life and Death of a Kotlin/Native Object
+DESCRIPTION:Have you ever wondered what the Kotlin/Native runtime does? Wha
+ t actually happens\, under the hood\, when you instantiate an object? How 
+ is an object layed out? How does the runtime manage memory? What happens w
+ hen an object is no longer needed?\n\nIn this talk\, you will get a look a
+ t how all these problems are solved by the Kotlin/Native runtime. This is 
+ a high level talk about a very low level topic\; you only need to know a b
+ it of Kotlin to follow along.
+LOCATION:Hall D2
+DTSTART:20250522T110000Z
+DTEND:20250522T114500Z
+END:VEVENT
+BEGIN:VEVENT
+UID:d1e43fa9-8122-465a-b99a-956bb8ec75a8
+DTSTAMP:20250517T082505Z
+SUMMARY:A (deep) dive into (shallow) immutability: Valhalla and beyond
+DESCRIPTION:Immutability is getting more and more attention in modern progr
+ amming\, making code easier to reason about\, safer in concurrent environm
+ ents\, and more maintainable. However\, adopting immutability isn’t withou
+ t challenges\, as it does improve the developer experience\, but can often 
+ come with runtime costs. In Kotlin\, immutability is already a key part of 
+ the language design\, but there’s significant potential to push its bounda
+ ries even further.\n\nThis talk begins by exploring the current state of i
+ mmutability in Kotlin. We’ll highlight what features the language already 
+ provides\, examine what’s missing\, and discuss the reasons behind these d
+ esign decisions. From there\, we’ll take a closer look at Project Valhalla
+ \, an upcoming JVM initiative that introduces value types and other innova
+ tions\, enabling new possibilities for Kotlin. We’ll discuss how Valhalla 
+ can help enhance Kotlin’s immutability story and improve the programming e
+ xperience without significant trade-offs.\n\nFinally\, we’ll explore the b
+ roader immutability design space for Kotlin\, looking beyond Valhalla to i
+ magine what future extensions could look like. We’ll discuss how new immut
+ ability features could integrate with existing ones\, such as smart casts 
+ and coroutines\, while maintaining the language’s pragmatic and developer-
+ friendly nature.\n\nJoin this session to discover how Kotlin can evolve it
+ s immutability story to better meet the needs of modern developers\, combi
+ ning practicality with innovation.
+LOCATION:Auditorium 15
+DTSTART:20250522T110000Z
+DTEND:20250522T114500Z
+END:VEVENT
+BEGIN:VEVENT
+UID:c254ec67-a572-4cf6-b54a-4ef4d784353f
+DTSTAMP:20250517T082505Z
+SUMMARY:APIs: How Hard Can They Be?
+DESCRIPTION:Virtually every Android developer uses AndroidX libraries. With 
+ KMP\, the usage is expanding to other platforms as well. The wide adoption 
+ makes API design and evolution of these libraries critical for the user ex
+ perience. Join me to learn about the life of an API in AndroidX: from an i
+ dea\, to a design\, to a review\, and through an API evolution. You will h
+ ear about our API review process and our use of Metalava and Kotlin Binary 
+ Compatibility Verification tools  to wrangle JVM\, Android\, and KMP libra
+ ries.
+LOCATION:Auditorium 11+12
+DTSTART:20250522T110000Z
+DTEND:20250522T114500Z
+END:VEVENT
+BEGIN:VEVENT
+UID:976166a2-5a29-41db-876b-13480cec7f93
+DTSTAMP:20250517T082505Z
+SUMMARY:One Codebase\, Three Platforms: X's Experience with Kotlin Multipla
+ tform
+DESCRIPTION:What if you could share a single codebase across Android\, iOS\
+ , and Web without sacrificing platform-specific experiences? Is it even po
+ ssible? At X (formerly Twitter)\, with a tiny developer team\, we took the 
+ leap with Kotlin Multiplatform to entirely rebuild one of our core feature
+ s for our multi-million-user platform.\n\nIn this talk\, we'll take you th
+ rough the highs and lows of adopting Kotlin Multiplatform in a real-world 
+ project. Learn about our development process\, the libraries that made our 
+ journey smoother\, and how we approached architecture\, navigation\, depen
+ dency injection\, and UI for a consistent user experience across platforms
+ .\n\nWe'll share practical lessons\, the challenges we faced\, and how Kot
+ lin Multiplatform transformed our cross-platform development strategy. We'
+ ll also explore one of the biggest challenges: gaining buy-in from iOS and 
+ Web developers for Kotlin Multiplatform. We'll share how we addressed thei
+ r concerns and built strong collaboration across teams. Whether you're cur
+ ious about Kotlin Multiplatform or seeking tips to enhance your implementa
+ tion\, this talk is for you!\n\nJoin us to see how Kotlin Multiplatform en
+ abled us to ship faster and deliver a seamless experience\, even while tac
+ kling the complexities of building for millions of users with a small\, fo
+ cused team.
+LOCATION:Auditorium 10 (Lightning talks)
+DTSTART:20250522T110000Z
+DTEND:20250522T111500Z
+END:VEVENT
+BEGIN:VEVENT
+UID:04df394d-1c3e-4719-aac2-c1bcfc87dc7c
+DTSTAMP:20250517T082505Z
+SUMMARY: Two Years with Kotlin Multiplatform: From Zero to 55% Shared Code
+DESCRIPTION:Two years ago\, StoneCo\, one of the largest fintech companies 
+ in Latin America serving more than 4 million users\, embarked on a journey 
+ to unify its mobile apps using Kotlin Multiplatform (KMP)\, aiming to bala
+ nce the efficiency of code sharing with the seamless user experience requi
+ red in the fintech sector. This talk explores our journey - how we evaluat
+ ed multiple cross-platform frameworks\, overcame technical and organizatio
+ nal challenges\, and achieved 55% code sharing across two large-scale mobi
+ le applications.\n\nYou'll hear how we made the decision to adopt KMP\, ho
+ w we trained 130 mobile engineers to embrace this paradigm shift\, and the 
+ measurable impact it has had on team productivity\, developer satisfaction
+ \, and app performance. Whether you're considering KMP or scaling it in yo
+ ur organization\, this session will provide actionable insights from a rea
+ l-world\, long-term implementation.
+LOCATION:Auditorium 10 (Lightning talks)
+DTSTART:20250522T113000Z
+DTEND:20250522T114500Z
+END:VEVENT
+BEGIN:VEVENT
+UID:6b98e4dd-4ed2-4163-bd78-bfeecd1b09cc
+DTSTAMP:20250517T082505Z
+SUMMARY:Break
+LOCATION:Hall D2
+DTSTART:20250522T114500Z
+DTEND:20250522T120000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:61362e43-5e8e-4536-8f21-8fc88257ef7a
+DTSTAMP:20250517T082505Z
+SUMMARY:Compose Multiplatform for iOS: Ready for Production Use
+DESCRIPTION:Compose Multiplatform\, the declarative framework by JetBrains 
+ for building shared UIs\, is now stable and production-ready on iOS – so i
+ t’s time to start building! In this talk\, you will get an overview of the 
+ technology\, and see what we’ve done to get to the stable release.\n\nThis 
+ includes the evolution of our APIs\, under-the-hood changes\, and new tool
+ ing that we’re premiering for building Compose Multiplatform apps in your 
+ favorite development environments\, IntelliJ IDEA and Android Studio. You’
+ ll see that there’s a rich ecosystem available for you that has already gr
+ own to cover all major areas of app development.\n\nPutting it all togethe
+ r\, you’ll see how Compose Multiplatform enables you to write production-g
+ rade apps on iOS and Android while reusing much of the knowledge you alrea
+ dy have – and you’ll also get some insights into what we have planned next 
+ in the journey of Compose Multiplatform\, on iOS and beyond.
+LOCATION:Keynote room
+DTSTART:20250522T120000Z
+DTEND:20250522T124500Z
+END:VEVENT
+BEGIN:VEVENT
+UID:2a042eab-bc60-40b4-aa80-76d79d72b446
+DTSTAMP:20250517T082505Z
+SUMMARY:Extending Ktor for Server Side Development
+DESCRIPTION:While Kotlin is seeing widespread adoption for Server side deve
+ lopment\, Ktor\, Kotlin's minimalistic and flexible framework for server a
+ nd client side development\, is sometimes overlooked\, largely because Spr
+ ing Boot still offers an exhaustive range of starters. \n\nTo bridge this 
+ gap\, kotlin developers can utilise Ktor's fluent Plugin API to provide al
+ l the functionality they need for their own use cases\, and those of the w
+ ider community.\n\nIn this session\, we will discuss developing plugins fo
+ r Ktor and demonstrate a few interesting plugins that complement the stand
+ ard set of Ktor’s features.\n\nYou’ll learn how to seamlessly integrate es
+ sential functionalities like Kafka for message-driven architectures\, impl
+ ement advanced rate limiting for traffic control\, and enhance system resi
+ lience with a sophisticated Circuit Breaker plugin. Each plugin is crafted 
+ to offer flexibility and ease of integration\, making your development exp
+ erience smoother and more efficient.
+LOCATION:Hall D2
+DTSTART:20250522T120000Z
+DTEND:20250522T124500Z
+END:VEVENT
+BEGIN:VEVENT
+UID:f6ab2441-6acd-4da2-ae33-70c4ab2add39
+DTSTAMP:20250517T082505Z
+SUMMARY:IoT development with Kotlin
+DESCRIPTION:With the advent of Kotlin Multiplatform and Kotlin/Native\, com
+ bined with IoT devices increasingly leveraging more powerful hardware capa
+ ble of running Linux\, we now have the exciting opportunity to use Kotlin 
+ for IoT development.\n\nThis talk will explore the key technologies requir
+ ed for IoT devices and demonstrate how to integrate them using Kotlin. Fro
+ m communication protocols like Matter\, MQTT\, and Bluetooth LE\, to essen
+ tial tools and frameworks like embedded Linux\, D-Bus\, and Buildroot\, we 
+ will delve into the strategies and best practices for successfully adoptin
+ g Kotlin in IoT development.
+LOCATION:Auditorium 15
+DTSTART:20250522T120000Z
+DTEND:20250522T124500Z
+END:VEVENT
+BEGIN:VEVENT
+UID:9e570838-6aef-4794-abeb-2c5f0e65a58d
+DTSTAMP:20250517T082505Z
+SUMMARY:Good Old Data
+DESCRIPTION:I will be talking about data-oriented systems design: why we ne
+ ed to stop hiding plain data and why object orientation no longer serves u
+ s well. Starting from first principles and foundational definitions\, we’l
+ l explore practical recipes and patterns for working with data in Kotlin. 
+ Topics include serialization\, persistent data structures\, polymorphism\, 
+ identity\, and state
+LOCATION:Auditorium 11+12
+DTSTART:20250522T120000Z
+DTEND:20250522T124500Z
+END:VEVENT
+BEGIN:VEVENT
+UID:8e24601a-6e21-40d4-a1c7-ffcdf8548519
+DTSTAMP:20250517T082505Z
+SUMMARY:Get Started With Kotlin Multiplatform for Shared Business Logic
+DESCRIPTION:Kotlin Multiplatform (KMP) allows you to write code once and sh
+ are it across multiple target platforms\, such as Android\, iOS\, web\, an
+ d JVM. By leveraging KMP\, you can minimize code duplication\, maintain co
+ nsistency\, and significantly reduce development time and effort. In this 
+ Codelab\, we will walk developers through taking a standalone Android app 
+ and a standalone iOS app\, extracting some business logic to a KMP Shared 
+ Module\, and leveraging this shared business logic from both Android and i
+ OS.
+LOCATION:Room #173
+DTSTART:20250522T120000Z
+DTEND:20250522T124500Z
+END:VEVENT
+BEGIN:VEVENT
+UID:05fb0e51-8ac2-46ba-8bf9-d3e25f93a53d
+DTSTAMP:20250517T082505Z
+SUMMARY:The wonders of smart casting
+DESCRIPTION:Smart casting sets Kotlin apart from other languages. We often 
+ see its effect through null checks and when expressions\, but in this talk 
+ we'll show that smart casting is capable of much more! 
+LOCATION:Auditorium 10 (Lightning talks)
+DTSTART:20250522T120000Z
+DTEND:20250522T121500Z
+END:VEVENT
+BEGIN:VEVENT
+UID:fc69ed33-7d0c-4791-a6ec-648260d975c9
+DTSTAMP:20250517T082505Z
+SUMMARY:Building a macOS screen saver with Kotlin
+DESCRIPTION:Two years ago\, sitting in the audience at KotlinConf\, I was m
+ esmerised by the idle animation on the big screen. It was in the style of 
+ old school DVD player screen savers\, with Kotlin's various logos through 
+ the years bouncing from edge to edge.\n\nI later found out that this was a 
+ pre-rendered video\, and not a screen saver that I could just grab and sta
+ rt using. This meant that I had no choice but to build it myself\, as a na
+ tive macOS application running on Kotlin/Native.\n\nJoin me for a tale of 
+ Kotlin success and macOS failures\, as we explore just what it takes to bu
+ ild a screen saver in Kotlin.\n\nWe'll see how easy it is to call native p
+ latform APIs from Kotlin code\, what challenges the development of such an 
+ unusual application presents\, and how macOS is very much not our friend o
+ n this whole journey.
+LOCATION:Auditorium 10 (Lightning talks)
+DTSTART:20250522T123000Z
+DTEND:20250522T124500Z
+END:VEVENT
+BEGIN:VEVENT
+UID:e36ff155-4c1d-41dc-a519-2492596c6876
+DTSTAMP:20250517T082505Z
+SUMMARY:Coffee Break
+LOCATION:Keynote room
+DTSTART:20250522T124500Z
+DTEND:20250522T131500Z
+END:VEVENT
+BEGIN:VEVENT
+UID:c72fce65-326b-47b8-89f4-33d2f0543f6e
+DTSTAMP:20250517T082505Z
+SUMMARY:Building AI Agents in Kotlin
+DESCRIPTION:AI agents are fully autonomous systems whose actions are dynami
+ cally directed by LLMs. In agents\, LLMs are not only used for standalone 
+ tasks while keeping the general flow predefined in the code — they become 
+ the main actor responsible for answering how a task should be accomplished
+ .\n\nThis talk will provide an overview of AI agents\, including their bui
+ lding blocks and basic workflows. It will share the essential knowledge fo
+ r building effective AI agents in Kotlin.
+LOCATION:Keynote room
+DTSTART:20250522T131500Z
+DTEND:20250522T140000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:e3e90de5-d7f5-40fa-bf18-20664cce9539
+DTSTAMP:20250517T082505Z
+SUMMARY:Building Inclusive Jetpack Compose Apps: Leveraging Kotlin and the 
+ Accessibility Scanner
+DESCRIPTION:Accessibility is a growing and important aspect in app developm
+ ent that isn’t always prioritized. Google’s efforts include making apps mo
+ re accessible which are shown in their new standard of making UIs\, using 
+ Jetpack Compose. Jetpack Compose with its Kotlin-based declarative approac
+ h offers a simplified path to building inclusive UIs. Within Jetpack Compo
+ se\, there are powerful tools like the Accessibility Scanner to quickly id
+ entify and address common accessibility issues\, improving the overall use
+ r experience. This talk will show that straightforward changes yield drama
+ tic improvements for user experience. Through the talk\, strategies will b
+ e shown how to improve accessibility. 
+LOCATION:Hall D2
+DTSTART:20250522T131500Z
+DTEND:20250522T140000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:e3788ff2-fdb2-40c1-80f1-f578786e2e6a
+DTSTAMP:20250517T082505Z
+SUMMARY:Blueprints for Scale: What AWS Learned Building a Massive Multiplat
+ form Project
+DESCRIPTION:The AWS SDK for Kotlin is a massive multiplatform project\, spa
+ nning over 300 services and targeting 8 distinct platforms.\n\nIn this ses
+ sion\, we’ll share first-hand insights into managing the challenges of a l
+ arge Kotlin Multiplatform project\, detailing how the AWS SDK for Kotlin w
+ as designed\, developed\, and scaled. You’ll hear about the best practices 
+ we adopted\, the lessons learned\, and the strategies that worked (and did
+ n’t) at AWS scale.\n\nJoin us as we discuss design tradeoffs\, maintaining 
+ backwards compatibility\, adding support for Kotlin Multiplatform\, automa
+ ting build and release processes\, and more!
+LOCATION:Auditorium 15
+DTSTART:20250522T131500Z
+DTEND:20250522T140000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:f32ed9bd-00ef-49b5-8b2f-98e78da5771f
+DTSTAMP:20250517T082505Z
+SUMMARY:Introducing Compose Hot Reload
+DESCRIPTION:Compose Hot Reload is a new plugin for Compose apps running on 
+ the JVM\, which lets you see the results of your code changes live\, witho
+ ut having to restart the app.\n\nIn this talk\, we'll look at where Compos
+ e Hot Reload is today and how you can use it in your projects to make iter
+ ating on UI code faster\, more convenient\, and more exciting!\n\nThen we'
+ ll dive into the technical details to see how multiple JetBrains technolog
+ ies came together\, step by step\, lifting a modern UI framework to the ne
+ xt level. We'll also learn about all the fun issues encountered and decisi
+ ons that had to be made along the way.
+LOCATION:Auditorium 11+12
+DTSTART:20250522T131500Z
+DTEND:20250522T140000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:63ce5b3d-da8d-4b70-ae90-d7513642a418
+DTSTAMP:20250517T082505Z
+SUMMARY:Coroutine Debugging in IntelliJ IDEA
+DESCRIPTION:During the past 1.5 years\, we’ve implemented the smooth corout
+ ine debugging experience\, so it would feel almost the same as debugging s
+ ynchronous code and even better! In this talk I will show you the capabili
+ ties of coroutine debugger and best practices for debugging coroutines. Al
+ so\, I’ll tell you a little bit about the challenges we faced while implem
+ enting these improvements\, such as deep integration and communication bet
+ ween the IDE and the coroutine library.
+LOCATION:Auditorium 10 (Lightning talks)
+DTSTART:20250522T131500Z
+DTEND:20250522T133000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:dafcc8df-629c-43ad-a33e-b3b849b0edcf
+DTSTAMP:20250517T082505Z
+SUMMARY:How to Build Your Own Kotlin Course
+DESCRIPTION:Interested in teaching Kotlin? This session introduces a compre
+ hensive set of materials designed to help you build your own Kotlin course
+ . These resources include presentations with speaker notes\, theory quizze
+ s\, homework assignments\, and interactive in-IDE courses that give studen
+ ts hands-on experience. We will also share insights from implementing thes
+ e materials at two universities\, and show how they can be adapted for dif
+ ferent audience levels.
+LOCATION:Room #173
+DTSTART:20250522T131500Z
+DTEND:20250522T140000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:ea0bc8a1-6598-4e6b-996a-5830a92d6254
+DTSTAMP:20250517T082505Z
+SUMMARY:Coroutines and Structured Concurrency in Ktor
+DESCRIPTION:Ktor is built from the ground up using Kotlin and Coroutines. I
+ t allows us to leverage Structured Concurrency\, and easily build elegant 
+ and robust applications.\n\nDiscover how Coroutines and CoroutineScopes wo
+ rk in Ktor from the ground up\, and what patterns and best practices allow 
+ building safe -and maintainable applications with Ktor in Kotlin.
+LOCATION:Auditorium 10 (Lightning talks)
+DTSTART:20250522T134500Z
+DTEND:20250522T140000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:c4054685-59be-4905-99ec-0d286e6e63d7
+DTSTAMP:20250517T082505Z
+SUMMARY:Break
+LOCATION:Hall D2
+DTSTART:20250522T140000Z
+DTEND:20250522T141500Z
+END:VEVENT
+BEGIN:VEVENT
+UID:ec17d9d1-9c0e-405f-a33c-13544968023d
+DTSTAMP:20250517T082505Z
+SUMMARY:Full Stream Ahead: Breaking the protocol barrier with http4k
+DESCRIPTION:HTTP's request-response pattern has served us well\, but modern 
+ web applications demand more. Real-time communication demands different pr
+ otocols\, yet maintaining testability and simplicity remains crucial to de
+ veloper experience.\n\nIn this talk\, we'll explore how http4k extends HTT
+ P's capabilities through WebSocket and Server-Sent Events support and how 
+ these protocols can be modelled as simple functions\, making them as testa
+ ble as plain HTTP endpoints. We'll then show how these streaming capabilit
+ ies open up new possibilities for server-side rendering\, bringing us full 
+ circle from the days of JSP to modern reactive interfaces - all while keep
+ ing the complexity on the server where it belongs.\n\nJoin us to discover 
+ how http4k's streaming capabilities can enhance your web applications\, en
+ abling everything from chat applications to live dashboards and reactive s
+ erver-rendered interfaces.
+LOCATION:Keynote room
+DTSTART:20250522T141500Z
+DTEND:20250522T150000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:d922018e-cf64-4810-b9c8-c36386e6722c
+DTSTAMP:20250517T082505Z
+SUMMARY:Multiplatform Settings: A case study in Multiplatform library devel
+ opment
+DESCRIPTION:How do I create libraries for Kotlin Multiplatform projects? Ko
+ tlin lets you share common code between different target platforms\, but b
+ y default only a limit set of platform-agnostic APIs are available to the 
+ code. Growing the amount of APIs available required Kotlin Multiplatform l
+ ibraries.\n\nI’ll talk through what it looks like to create such a library
+ \, drawing from my experience building and maintaining one of my own since 
+ the early days of Kotlin/Native. We'll talk about how to find shared abstr
+ actions around different platform APIs\, how to handle the fast-paced evol
+ ution of this environment\, and what this all felt like as a first-time li
+ brary developer. When we're done\, you’ll be ready to leverage the growing 
+ ecosystem as well as make your own contributions.
+LOCATION:Hall D2
+DTSTART:20250522T141500Z
+DTEND:20250522T150000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:2d36efea-6195-4076-bb9d-2b5be52fd89a
+DTSTAMP:20250517T082505Z
+SUMMARY:Compose draw speedrun - reloaded
+DESCRIPTION:Let's see how many compose drawing techniques we can demo in 45 
+ minutes. This live code speed run will start simple and quickly escalate. 
+ I will try out as many drawing techniques as will fit into the time and sc
+ reen space in a compose desktop app. Thanks to hot reloading we will be ab
+ le to see the effects as the code changes.\n\nAt the end of this talk the 
+ audience will:\n\n- have a good overview of what is possible with compose 
+ drawing\n- see hot reload in action\n- get access to the open source repo 
+ of samples as a reference
+LOCATION:Auditorium 15
+DTSTART:20250522T141500Z
+DTEND:20250522T150000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:d0b7f38c-59bf-44c4-8827-93c7132ad8e5
+DTSTAMP:20250517T082505Z
+SUMMARY:LangChain4j with Quarkus
+DESCRIPTION:Kotlin is loved for its expressiveness\, Quarkus for its blazin
+ g-fast runtime\, and LangChain4j for integrating AI into modern applicatio
+ ns. But what happens when you bring all three together? You unlock the pot
+ ential to build cutting-edge\, AI-powered applications efficiently.\n\nDes
+ pite the growing demand for AI-driven solutions\, integrating AI workflows 
+ into existing applications remains a challenge for many Kotlin developers. 
+ Pain points include complex setup\, lack of synergy between frameworks\, a
+ nd maintaining high performance while leveraging AI tools.\n\nThis talk of
+ fers a solution: combining LangChain4j and Quarkus to create Kotlin applic
+ ations that leverage AI capabilities seamlessly. We’ll explore how to stre
+ amline integration\, manage dependencies\, and use Kotlin’s idiomatic feat
+ ures to simplify AI workflows.\n\nWho is this talk for? Kotlin developers 
+ curious about embedding AI into their apps\, and Quarkus fans eager to exp
+ lore its potential in AI-driven use cases. Attendees will leave with actio
+ nable insights\, including code samples\, to build AI-powered applications 
+ confidently.
+LOCATION:Auditorium 11+12
+DTSTART:20250522T141500Z
+DTEND:20250522T150000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:5277a3db-21dd-47e0-a6dc-e99e4bd4b257
+DTSTAMP:20250517T082505Z
+SUMMARY:Interactive Session on Shaping Kotlin Education
+DESCRIPTION:Kotlin is a popular choice for teaching programming\, and the K
+ otlin Foundation Education Committee is here to support educators in using 
+ it to its full potential.\n\nIn this session\, we’ll share current initiat
+ ives for those teaching and learning Kotlin – whether in classrooms\, work
+ shops\, or teams. You’ll learn how to get involved\, access available reso
+ urces\, and connect with others in the teaching community.\nJoin us for an 
+ interactive format featuring educators\, experts\, and members of the Kotl
+ in Foundation Education Committee. Together\, we’ll explore how we can bet
+ ter support your work\, address common challenges\, and discuss what we sh
+ ould prioritize next.\n\nBring your questions!
+LOCATION:Room #173
+DTSTART:20250522T141500Z
+DTEND:20250522T150000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:64c7851c-f063-4de3-b769-351ff3a118e8
+DTSTAMP:20250517T082505Z
+SUMMARY:Kotlin compatibility crash course
+DESCRIPTION:A new version of Kotlin is out 🎉 Let's update all the things 🚀
+  \nBut... what does it really mean to update your Kotlin version?\n\nIn th
+ is talk\, we'll take a look at different parts of the Kotlin ecosystem: Ko
+ tlin stdlib\, Gradle Plugin\, compiler\, K/N\, JS\, etc... and the differe
+ nt compatibility guarantees they offer. \n\nWe'll dive into Android and Ja
+ va. They have compatibility guarantees too!\n\nWhether you're developing a
+ n Android app\, a server\, a library or a Gradle plugin\, we'll see how yo
+ u can use the latest tooling while still giving your users plenty of time 
+ to update on their own schedule. \nAfter this talk\, you'll never be afrai
+ d to see "incompatible version of metadata" in your logs anymore!
+LOCATION:Auditorium 10 (Lightning talks)
+DTSTART:20250522T141500Z
+DTEND:20250522T143000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:01bbb8d7-a0fc-4ea2-a142-f6c5c873547e
+DTSTAMP:20250517T082505Z
+SUMMARY:Kotlin Worst Practices — How to Maximize Your Hassle
+DESCRIPTION:Want to turn your Kotlin journey into a rollercoaster of frustr
+ ation? You’re in the right place! In this session\, we’ll uncover the ulti
+ mate strategies for making life harder: delightfully obtuse anti-patterns\
+ , enthusiastically misusing language features\, and blissfully ignoring ec
+ osystem best practices.\n\nPacked with real-world blunders\, this talk is 
+ your shortcut to chaos!
+LOCATION:Auditorium 10 (Lightning talks)
+DTSTART:20250522T144500Z
+DTEND:20250522T150000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:bae20be3-beb4-4e69-a82f-b95feac8bc20
+DTSTAMP:20250517T082505Z
+SUMMARY:Break
+LOCATION:Hall D2
+DTSTART:20250522T150000Z
+DTEND:20250522T151500Z
+END:VEVENT
+BEGIN:VEVENT
+UID:97b22288-c065-421e-8b3b-314e5e896088
+DTSTAMP:20250517T082505Z
+SUMMARY:That's Unpossible – A full stack side project webapp (including a h
+ igh-fidelity UI!) all in Kotlin
+DESCRIPTION:It's happened to all of us – an idea strikes for a side project 
+ and you want to build a quick webapp\, but then you remember the state of 
+ webdev is still a bit of a mess in 2025. Sure you could pick up one of tho
+ se "all-in-one" frameworks\, but they're so heavy and complicated. And eve
+ n if that worked\, you'd still need something on the frontend so you start 
+ looking at the the weird world of frontend frameworks or (gasp!) writing r
+ aw HTML/CSS/JavaScript.\n\nBut it doesn't have to be that hard! I'm here t
+ o present a straightforward stack that gets you a full stack webapp up and 
+ running fast\, using the one language we all know and love – Kotlin. Datab
+ ase manipulation\, async services\, and a high fidelity UI\, all accessed 
+ and built with Kotlin. And yes\, you read that right – you can have a grea
+ t UI without having to write a single line of CSS\, HTML\, or JavaScript.\
+ n\nI'll show you a path for building a basic webapp on top of a simple dat
+ abase (Postgres)\, performing basic CRUD operations on that database (Kotl
+ in Exposed)\, building business logic via async services (Kotlin Coroutine
+ s)\, and constructing a high-fidelity UI to bring it all together (Vaadin 
+ on Kotlin). By the end of the talk we'll have a fully functional webapp th
+ at is entirely built on Kotlin.\n\nAnd let's not forget\, we're not buildi
+ ng a by-the-book\, very serious webapp\, just something we're doing on the 
+ side for fun. So forget about tests and forget about perfect architecture 
+ – let's have some fun\, learn a few things along the way\, and get this th
+ ing running!
+LOCATION:Keynote room
+DTSTART:20250522T151500Z
+DTEND:20250522T160000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:96f2761c-a6ba-485a-bf42-1c062870008b
+DTSTAMP:20250517T082505Z
+SUMMARY:Build your own NES Emulator... with Kotlin
+DESCRIPTION:Let Fools Dream\n\nFor those who have ever wanted to recreate c
+ lassic games\, this presentation covers my five-year journey to build a NE
+ S emulator in Kotlin. Starting from scratch in 2020 (you can probably gues
+ s why)\, I’ll share the challenges posed by the architecture of old hardwa
+ re\, performance optimization (surprise\, surprise)\, and the difficulties 
+ of emulating sound. I’ll also highlight which Kotlin features shine (and w
+ hy concurrency isn’t one of them). This high-level overview will walk thro
+ ugh each step of the process—from reading ROM formats to where GPT can hel
+ p\, though it won’t write the code for us just yet. We’ll wrap up by launc
+ hing Mario on the emulator (hopefully without a call from Nintendo).
+LOCATION:Hall D2
+DTSTART:20250522T151500Z
+DTEND:20250522T160000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:620df569-7c40-43bc-8a3c-f18e42b4fcbc
+DTSTAMP:20250517T082505Z
+SUMMARY:Making native SDKs Multiplatform at RevenueCat
+DESCRIPTION:In the rapidly evolving Kotlin Multiplatform ecosystem a critic
+ al gap has been the lack of a unified in-app purchase and subscription sol
+ ution. Until now\, that is. The RevenueCat SDK for Kotlin Multiplatform al
+ lows you to write your subscription code once and run it on both Android a
+ nd iOS. But how did we build it? We have existing native SDKs for both And
+ roid and iOS\, and did not want to rewrite all core logic. This talk will 
+ cover the strategies\, pitfalls and learnings of our approach to bringing 
+ native SDKs to Kotlin Multiplatform.\n\n
+LOCATION:Auditorium 15
+DTSTART:20250522T151500Z
+DTEND:20250522T160000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:d59e0ad4-bcc3-46d6-996d-3e0ef37fb166
+DTSTAMP:20250517T082505Z
+SUMMARY:Writing Your Third Kotlin Compiler Plugin
+DESCRIPTION:Compiler plugins have become an integral part of a developer’s 
+ experience with the Kotlin programming language. Areas like UI development 
+ (Jetpack Compose)\, backend development (Spring Boot / Kotlin Serializatio
+ n)\, and even testing (Power-Assert) all leverage compiler plugins. But wh
+ at is a Kotlin compiler plugin and what can it do? Let’s learn by writing 
+ one!\n\nIn this talk\, we’ll discuss use cases for compiler plugins and le
+ arn how they integrate with the Kotlin compiler. Then we’ll explore everyt
+ hing related to how code is represented within the Kotlin compiler\, inclu
+ ding how to inspect\, navigate\, transform\, and create these representati
+ ons. When we’re done\, we’ll have written a compiler plugin from scratch w
+ hich can navigate the project code\, inspect annotations\, generate boiler
+ plate\, and even report errors!
+LOCATION:Auditorium 11+12
+DTSTART:20250522T151500Z
+DTEND:20250522T160000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:514c8ae1-31ae-44f0-a084-992b455c8755
+DTSTAMP:20250517T082505Z
+SUMMARY:Party
+LOCATION:Keynote room
+DTSTART:20250522T160000Z
+DTEND:20250522T200000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:7d924dec-0abb-4686-a015-23739c5ce810
+DTSTAMP:20250517T082505Z
+SUMMARY:Registration
+LOCATION:Keynote room
+DTSTART:20250523T060000Z
+DTEND:20250523T070000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:32a9a6f2-6f83-466a-b2b4-2cc364e55d31
+DTSTAMP:20250517T082505Z
+SUMMARY:Qualities of a Well-Functioning System
+DESCRIPTION:“We can't impose our will on a system. We can listen to what th
+ e system tells us\, and discover how its properties and our values can wor
+ k together to bring forth something much better than could ever be produce
+ d by our will alone.” -- Donella Meadows\n\nRelational complexity in softw
+ are is constantly increasing. Data pipelines become a mesh. A monoliths be
+ comes microservices. Synchronous database transactions become event-driven 
+ architectures. Infrastructure becomes DevOps. Software is becoming systems 
+ of software.\n\nAs technology professionals\, we are trapped between the d
+ esire for control and the reality of systems. Increasingly\, we act amidst 
+ ambiguity and uncertainty. We diversify and expand our skillset.  Systems 
+ challenge our thinking patterns and core mental models. \n\nFortunately\, 
+ there are some core principles for designing healthy systems. I don't mean 
+ (strictly) scalability or microservices. Three qualities are inherent in w
+ ell-functioning systems: resilience\, self-organization and hierarchy. \n\
+ nEach of the qualities\, guaranteed\, differ from your current definition. 
+ In this keynote\, we will explore them from a systems point of view.
+LOCATION:Keynote room
+DTSTART:20250523T070000Z
+DTEND:20250523T080000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:51fff2de-afc5-432a-af3c-d531b9196039
+DTSTAMP:20250517T082505Z
+SUMMARY:Break
+LOCATION:Hall D2
+DTSTART:20250523T080000Z
+DTEND:20250523T081500Z
+END:VEVENT
+BEGIN:VEVENT
+UID:00f90e3b-623f-4894-9b6e-08bb00dba0ff
+DTSTAMP:20250517T082505Z
+SUMMARY:Dissecting Kotlin: Surveying the Latest Stable and Experimental
+DESCRIPTION:As Kotlin evolves\, not only do the features available to us as 
+ developers evolve\, but so does our understanding of what idiomatic Kotlin 
+ is\, how we can best leverage new and old features and the semantic and pe
+ rformance impacts of our implementation choices.\n\nIn this session\, we w
+ ill examine some of the features released over the last couple of years in 
+ Kotlin\, dive into their implementations\, explore where we may need them 
+ and how we might use them\, and discuss how these features fit into the br
+ oader ideas and themes of Kotlin as a language.
+LOCATION:Keynote room
+DTSTART:20250523T081500Z
+DTEND:20250523T090000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:2182e442-35cd-4402-9146-6030a199d813
+DTSTAMP:20250517T082505Z
+SUMMARY:Dependencies and Kotlin/Native
+DESCRIPTION:In the JVM world\, the virtual machine and its class loaders do 
+ the heavy lifting of linking and loading our applications with dependencie
+ s. When we use Kotlin Multiplatform to produce a native binary\, we lose t
+ he simplicity of JAR archives and .class files.\n\nIn this session\, we'll 
+ explore the differences between how JVM and native platforms handle depend
+ encies. We'll look at some of the common blockers that native platforms th
+ row our way and possible workarounds. We'll also compare dependency manage
+ ment tools used on Apple platforms like CocoaPods and Swift Package Manage
+ r to see their strengths and weaknesses.\n\nLearn how native dependencies 
+ interact\, how they are loaded and the unexpected complexities of the nati
+ ve world.
+LOCATION:Hall D2
+DTSTART:20250523T081500Z
+DTEND:20250523T090000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:a33490f8-543b-4c90-b73d-a5321b5f7280
+DTSTAMP:20250517T082505Z
+SUMMARY:Collect Like a Pro: a deep dive on the Android lifecycle-aware coro
+ utines APIs
+DESCRIPTION:Collecting in a lifecycle-aware manner is essential for saving 
+ system resources. Since coroutines and flows are the recommended solution 
+ for asynchronous programming on Android\, there are APIs that do most of t
+ he heavy-lifting work for you. Namely: repeatOnLifecycle\, flowWithLifecyc
+ le\, and Compose’s collectAsStateWithLifecycle. When building for Android\
+ , you should include these libraries in your toolbox. But even if you’re d
+ oing KMP\, you should keep this in mind.\n\nIn this talk\, we’ll see the d
+ ifferent lifecycle-aware coroutines APIs\, the problems they solve\, and w
+ hich types of flows can make your system waste resources—Disclaimer! A col
+ d flow backed by a Channel or Flow operators with buffers might be under i
+ nvestigation. Prepare to roll up your sleeves as we dissect their implemen
+ tation details and learn low-level coroutines and Compose APIs. But the jo
+ urney doesn't end there! To help you think as a library developer\, we’ll 
+ explore an API regret that never made it into stable to protect developers 
+ from misusing the API and force them respect coroutines’ structure concurr
+ ency.\n\nBy the end of the talk\, you'll understand the importance of coll
+ ecting in a lifecycle-aware manner\, use low-level coroutines APIs to buil
+ d your own APIs\, and design APIs that respect structure concurrency and p
+ rotect your users from misuse.
+LOCATION:Auditorium 15
+DTSTART:20250523T081500Z
+DTEND:20250523T090000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:73ce76c3-05e1-4d17-9700-ed5a543c5aa9
+DTSTAMP:20250517T082505Z
+SUMMARY:Taming Asynchronous Beasts: Debugging and Performance Tuning in a C
+ oroutine World
+DESCRIPTION:Asynchronous code can be challenging to debug and optimize\, es
+ pecially when dealing with complex coroutine hierarchies and flow transfor
+ mations. This session reveals practical techniques for tracking down elusi
+ ve bugs\, optimizing performance\, and maintaining reliability in coroutin
+ e-heavy applications.\n\nDrawing from real production experience\, we'll e
+ xplore advanced debugging techniques\, common performance pitfalls\, and p
+ ractical solutions for the most challenging scenarios. You'll learn how to 
+ effectively use built-in tools\, recognize problematic patterns\, and impl
+ ement proven optimization strategies.
+LOCATION:Auditorium 11+12
+DTSTART:20250523T081500Z
+DTEND:20250523T090000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:2e7acb41-cfc2-4612-9948-3319d404c604
+DTSTAMP:20250517T082505Z
+SUMMARY:Leveraging KMP for navigation in the McDonalds App.
+DESCRIPTION:KMP is well known as THE domain layer framework for Android and 
+ iOS. But why not take it further! In our pursuit to create the slimmest po
+ ssible android and iOS apps\, where KMP handles everything except the UI. 
+ Our next step is taking control of the navigation system. But Handling and
+ roid and iOS navigation from a cross platform environment is not easy. In 
+ this talk we tell you how it is done\, what challenges we overcame and whe
+ re we are now.!
+LOCATION:Auditorium 10 (Lightning talks)
+DTSTART:20250523T081500Z
+DTEND:20250523T083000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:0d92111f-8fc4-4dc7-96b3-e8abfaa1d8f8
+DTSTAMP:20250517T082505Z
+SUMMARY:Kotlin Multiplatform's Cross-Platform Brilliance at Norway's 377-Ye
+ ar-Old National Postal Service
+DESCRIPTION:Do you have a complex business rule-set problem? You know the k
+ ind where you have business rules (logic) spread across multiple platforms
+ \, systems and applications? Some of them might even be alter egos of the 
+ same rule hiding in different apps. You never know which one might turn up 
+ where\, there is no single source of truth\, solving errors takes hours of 
+ debugging\, and making changes requires (oftentimes) painful coordination 
+ across teams and applications (ugh).\n\nWe faced this exact challenge at P
+ osten Bring As - Norwegian National Postal Service founded way back in 164
+ 7 - a 377-year-old institution with software spanning more generations tha
+ n most families! Our business logic was scattered across multiple platform
+ s\, some almost as old as the company itself (well\, not quite\, but it su
+ re felt like it).\n\nIn my session I’m spilling the tea. We discover how t
+ he team at century-old Norwegian postal services giant tackled modern chal
+ lenges with cutting-edge technology.\n\nWe’ll look through real-world use 
+ cases at Posten Bring. We’ll reflect on what we did - key learnings\, what 
+ went well and most importantly - what didn’t quite go as planned. We’ll al
+ so look through some resources to get started. We'll learn how KMP provide
+ s a unified framework for code sharing and execution across various platfo
+ rms to solve the challenge of different codebases targeting different runt
+ imes.\n\nThis talk is for you if troublesome and unruly business logic kee
+ ps you up at night and you want that to end NOW. It is also for you if you 
+ like to hear a good story.
+LOCATION:Auditorium 10 (Lightning talks)
+DTSTART:20250523T084500Z
+DTEND:20250523T090000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:00763391-a9ad-42ee-a720-f68de9b30f27
+DTSTAMP:20250517T082505Z
+SUMMARY:Break
+LOCATION:Hall D2
+DTSTART:20250523T090000Z
+DTEND:20250523T091500Z
+END:VEVENT
+BEGIN:VEVENT
+UID:6cc295b9-7cf1-4c91-862d-291f08731d05
+DTSTAMP:20250517T082505Z
+SUMMARY:Designing Kotlin Beyond Type-Inference
+DESCRIPTION:Kotlin programmers regularly elide uninformative types from the
+ ir programs. This makes Kotlin programs faster to develop\, easier to read
+ \, and less effort to maintain. It also means the Kotlin language needs to 
+ be designed so that its compilers can reliably accept programs without the
+ se typing hints. We think of this as type-inference\, but—by definition—ty
+ pe-inference means determining these missing types can be filled in such t
+ hat the program type-checks.\n\nBut what if we can determine a program is 
+ safe without determining these missing types? What if we can do so even wh
+ en it such types do not exist? And what if we can do so more efficiently t
+ han any type-inference algorithm can?\nIn researching Kotlin's next-genera
+ tion typing algorithms\, we have discovered we can efficiently exceed the 
+ capabilities of type-inference and type-checking. We have developed a type
+ -"outference" algorithm that efficiently decides "type-consistency"\, whic
+ h all type-inferable/checkable programs satisfy (but not vice versa).\n\nW
+ hile type-inference still has its place in user feedback and compilation\, 
+ type-consistency is a much more flexible property\, and type-outference of
+ fers clear guidelines on how to design features for efficient validation. 
+ In this talk\, after introducing these concepts\, we will provide a behind
+ -the-scenes look into how they guide the design of various expected and hy
+ pothetical features for Kotlin\, such as union types for errors\, conditio
+ nal inheritance for type-safe equality with value types\, and implicit pol
+ ymorphism for non-escaping references.
+LOCATION:Keynote room
+DTSTART:20250523T091500Z
+DTEND:20250523T100000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:76eba869-ea61-4203-afac-5d48ae7c1749
+DTSTAMP:20250517T082505Z
+SUMMARY:Build Websites in Kotlin & Compose HTML with Kobweb
+DESCRIPTION:Want to build a website using Kotlin? Kobweb is a modern web fr
+ amework that makes web development enjoyable by leveraging Compose HTML an
+ d drawing inspiration from Jetpack Compose.\nWith Kobweb\, you can create 
+ a portfolio site\, product landing page\, personal blog\, and more—all whi
+ le benefiting from Kotlin’s concise\, expressive\, and type-safe syntax.\n
+ In this live coding session\, we’ll introduce the fundamentals of Kobweb a
+ nd Compose HTML\, walking you through the process of building a functional 
+ website using Kotlin/JS. By the end\, you’ll see just how easy it is to de
+ velop and export a traditional website—embracing HTML\, CSS\, and the DOM 
+ through a Kotlin-first\, Compose-powered approach.\nThis talk is designed 
+ for beginners\, and no prior web development experience is required.\nIf y
+ ou’re curious about web development and want to explore a Kotlin-powered\, 
+ type-safe\, Compose API for building modern websites\, this session is the 
+ perfect place to start!
+LOCATION:Hall D2
+DTSTART:20250523T091500Z
+DTEND:20250523T100000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:c8c92af3-9a2a-4c26-9df5-3467908518fb
+DTSTAMP:20250517T082505Z
+SUMMARY:Duolingo + KMP: A Case Study in Developer Productivity
+DESCRIPTION:Duolingo ships weekly on iOS and Android to 40M+ Daily Active U
+ sers across 176 countries. Shipping fast is important to us and Kotlin Mul
+ tiplatform is starting to play a huge role in how we accomplish this!\n\nI
+ n this talk\, we’ll:\n- Discuss how we shipped Video Call\, Math\, Adventu
+ res and more across Android\, iOS\, and Web\n- Propose what potential upco
+ ming projects could benefit from KMP and the rubric we use\n- Share the ch
+ allenges faced and lessons learned along the way\n\n…and more!
+LOCATION:Auditorium 15
+DTSTART:20250523T091500Z
+DTEND:20250523T100000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:16c0b09c-6925-4be5-9c6f-5626abdeaef7
+DTSTAMP:20250517T082505Z
+SUMMARY:Exposed 1.0: Stable\, Scalable\, and Looking Forward
+DESCRIPTION:Exposed is a database access library that provides a type-safe 
+ SQL DSL\, a powerful ORM\, and reliable database interactions as a seamles
+ s extension of any Kotlin developer’s code.\n\nThe team behind the library 
+ has been working towards its first stable version and recently published a 
+ beta release. This talk aims to provide a detailed insight into what stabi
+ lity will mean for the library\, as well as to highlight the enhanced feat
+ ures that have been implemented over time.\n\nWe’ll also cover the introdu
+ ction of support for non-blocking database operations using R2DBC with Kot
+ lin coroutines\, as well as the challenges encountered during its developm
+ ent.\n\nLastly\, to share a look into the future of Exposed\, we’ll touch 
+ on planned features for later stable versions\, like integrated support fo
+ r database migrations\, which address the library’s position as a database 
+ access solution in Kotlin Multiplatform development.
+LOCATION:Auditorium 11+12
+DTSTART:20250523T091500Z
+DTEND:20250523T100000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:bbf2d4b9-41a4-49c9-b7cc-e88cd3e441c1
+DTSTAMP:20250517T082505Z
+SUMMARY:Get Started With Kotlin Multiplatform for Shared Business Logic 
+DESCRIPTION:Kotlin Multiplatform (KMP) allows you to write code once and sh
+ are it across multiple target platforms\, such as Android\, iOS\, web\, an
+ d JVM. By leveraging KMP\, you can minimize code duplication\, maintain co
+ nsistency\, and significantly reduce development time and effort. In this 
+ Codelab\, we will walk developers through taking a standalone Android app 
+ and a standalone iOS app\, extracting some business logic to a KMP Shared 
+ Module\, and leveraging this shared business logic from both Android and i
+ OS.
+LOCATION:Room #173
+DTSTART:20250523T091500Z
+DTEND:20250523T100000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:25df1383-fea0-41d9-a0b3-1761069c8642
+DTSTAMP:20250517T082505Z
+SUMMARY:Getting your Gradle setup right\, at the right time
+DESCRIPTION:Let’s address the elephant in the room - setting up a Gradle pr
+ oject in a proper scalable way is hard. What’s even more challenging is do
+ ing this once the project is already scaled and running. What’s nearly imp
+ ossible is learning what “a good scalable setup” actually means on your ow
+ n.\n\nSo what does a good scalable setup mean? Are the best practices univ
+ ersal for all types of project? Are there Kotlin specific best practices? 
+ When and how should you introduce them? Let’s dive in!
+LOCATION:Auditorium 10 (Lightning talks)
+DTSTART:20250523T091500Z
+DTEND:20250523T093000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:ca768141-2ec6-4987-8487-e04833519036
+DTSTAMP:20250517T082505Z
+SUMMARY:Build your Kotlin and Android apps with Buck2
+DESCRIPTION:We're happy to announce that Buck2\, a large-scale open source 
+ build system from Meta\, now supports Kotlin and Android. Buck2  builds al
+ l Android applications at Meta with a focus on fast incremental iterations 
+ with code. \nWe will start building an app from basics and then learn some 
+ advance buck2 capabilities\, like Remote Execution\, Source-only ABI\, and 
+ Build Tools API integrations  
+LOCATION:Auditorium 10 (Lightning talks)
+DTSTART:20250523T094500Z
+DTEND:20250523T100000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:21a10bae-089f-4f0c-b4a8-9bd4bb8f6017
+DTSTAMP:20250517T082505Z
+SUMMARY:Lunch
+LOCATION:Keynote room
+DTSTART:20250523T100000Z
+DTEND:20250523T110000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:1c47c60d-0dba-4c2c-8415-4a59f35f6645
+DTSTAMP:20250517T082505Z
+SUMMARY:The Easing Symphony: AnimationSpec in detail!
+DESCRIPTION:Let's take a deeper look at AnimationSpec and learn how to use 
+ it to customize animations! With music!\n\nUsing Compose Multiplatform\, w
+ e'll go over the different AnimationSpec types we have\, and which persona
+ lization options they offer. We'll cover topics from how to use AnimationS
+ pec\, to how to create your own easing curves. And since animations are me
+ ant to be fun\, we'll do all of this while creating a music visualizer!\n\
+ nAfter this talk\, you'll have a better understanding on how powerful anim
+ ationSpec is\, and how you can use it to create complex and fun animations
+ .\n\nKeep it fun\, keep it animated! :)\n
+LOCATION:Keynote room
+DTSTART:20250523T110000Z
+DTEND:20250523T114500Z
+END:VEVENT
+BEGIN:VEVENT
+UID:6ec715b6-8ace-4cdb-a8d8-9f2a6c0f384a
+DTSTAMP:20250517T082505Z
+SUMMARY:Project Sparkles: How Compose for Desktop is changing Android Studi
+ o and IntelliJ
+DESCRIPTION:Many of us use Android Studio and IntelliJ every day\, and appr
+ eciate how its rich feature set makes our job easier. Most people know tha
+ t both products are built on the IntelliJ Platform\, the same that underpi
+ ns the popular IDEs from JetBrains\, which has seen lasting success for ov
+ er 20 years. It’s a solid\, expansive\, and by far the best foundation on 
+ which we could stand on to deliver developer goodies.\n\nHowever\, some pa
+ rts of the IntelliJ Platform show the signs of time\; in particular its UI 
+ framework\, Swing\, is proving the most limiting\, having been around for 
+ almost 30 years. Don’t get us wrong — it works\, and the IDEs themselves p
+ rove you can ship complex UIs by using Swing on the IntelliJ Platform. But 
+ as we looked at how nice it is to develop UIs on desktop by using Compose 
+ for Desktop\, we thought: why don’t we do the same?\n\nEnter Project Spark
+ les\, which aims at gradually introducing new high-quality\, polished UI s
+ urfaces in Android Studio and IntelliJ\, developed in Compose for Desktop\
+ , with all the bells and whistles you can expect from a top-tier interface
+ . In this talk\, we’ll cover how Project Sparkles is impacting the develop
+ ment of Android Studio and IntelliJ\, addressing long-standing user feedba
+ ck\, and how Google and JetBrains are working together to build a framewor
+ k to make your favorite IDE even better and easier to understand.\n\nWe’ll 
+ demonstrate a few examples of features already shipping that are powered b
+ y Project Sparkles\, explain what our goals and ambitions are\, and even s
+ how some sneak peeks of things you may see in a future IDE version. We wil
+ l also cover a roadmap on when developers can expect to use Compose for De
+ sktop as a supported UI framework for IntelliJ plugin development!\n\nUI e
+ nthusiasts\, assemble!
+LOCATION:Hall D2
+DTSTART:20250523T110000Z
+DTEND:20250523T114500Z
+END:VEVENT
+BEGIN:VEVENT
+UID:353723d3-f304-4a7f-8bc6-3f7ab3718c9e
+DTSTAMP:20250517T082505Z
+SUMMARY:Don't forget your values!
+DESCRIPTION:No one likes to be forgotten\, and the results of most non-unit 
+ function calls are no exception here. 'Check return value' or 'ignored cal
+ l result' may sound familiar — those are popular Java linters' rules. Howe
+ ver\, in our view\, this inspection is so crucial that it deserves its pla
+ ce among compiler diagnostics. In this talk\, we'll explore the challenges 
+ and complexities down the road of making a brand-new language feature. And
+ \, of course\, how you can use it for your benefit.
+LOCATION:Auditorium 15
+DTSTART:20250523T110000Z
+DTEND:20250523T114500Z
+END:VEVENT
+BEGIN:VEVENT
+UID:28bc108d-64c3-4552-90f8-dcabec0c9bc8
+DTSTAMP:20250517T082505Z
+SUMMARY:Event-Driven Analytics: Building Real-Time Dashboards with Apache F
+ link and Ktor
+DESCRIPTION:The ability to process continuous data streams and deliver real
+ -time insights has become crucial in modern application architectures. As 
+ a developer you are probably very comfortable with RESTful services\, and 
+ shifting to event-driven thinking opens new possibilities for responsivene
+ ss and scalability (as well as new challenges and growing paints).\n\nThis 
+ talk will explore building real-time analytics dashboards by combining Apa
+ che Flink's powerful stream processing capabilities with Ktor's flexible w
+ eb framework. We'll journey through the mental model transformation from r
+ equest/response patterns to continuous event flows\, demonstrating how thi
+ s shift enables truly reactive applications.\n\nYou'll learn:\n* How Apach
+ e Flink handles stateful stream processing\, offering advantages for compl
+ ex analytics use cases\n* Leveraging Flink's Table API and SQL capabilitie
+ s to express complex transformations with familiar syntax\n* Implementing 
+ real-time dashboards with Ktor and other Kotlin libraries\n\nBy the end of 
+ this session\, you'll understand how to bridge the gap between powerful ba
+ ckend stream processing and engaging user interfaces\, all while staying i
+ n the Kotlin ecosystem. Regardless\, if you're a seasoned data streaming e
+ ngineer or just beginning to explore beyond REST\, you'll bring home pract
+ ical techniques for delivering real-time insights to your users.\n
+LOCATION:Auditorium 11+12
+DTSTART:20250523T110000Z
+DTEND:20250523T114500Z
+END:VEVENT
+BEGIN:VEVENT
+UID:fa6e7c54-2f2f-4c0a-8b65-981b74b5e032
+DTSTAMP:20250517T082505Z
+SUMMARY:JSpecify: Java Nullness Annotations and Kotlin
+DESCRIPTION:Q: Why should I care about Java nullness annotations?\n\nA: Bec
+ ause they’ll make Kotlin code that uses Java libraries safer\, and because 
+ they’ll make it easier to convert Java code to Kotlin.\n\nJSpecify release
+ d a set of nullness annotations for Java in July. Unlike all the other nul
+ lness annotations for Java\, JSpecify’s are defined by tool-agnostic speci
+ fication. That means that all the Java nullness analyzers will agree on wh
+ at they mean\, and the Kotlin compiler will too. And that means that your 
+ Kotlin code will be able to use null-safe types instead of platform types 
+ when it depends on well-annotated Java libraries.\n\nIn this talk\, we’ll 
+ explain how Java nullness annotations will help you\, and how JSpecify’s w
+ ork. We’ll also tease upcoming projects that aren’t about nullness but mig
+ ht help your Kotlin code too.\n\n
+LOCATION:Auditorium 10 (Lightning talks)
+DTSTART:20250523T113000Z
+DTEND:20250523T114500Z
+END:VEVENT
+BEGIN:VEVENT
+UID:63c5a0d2-767e-4a1c-918e-566fb752e5e9
+DTSTAMP:20250517T082505Z
+SUMMARY:Break
+LOCATION:Hall D2
+DTSTART:20250523T114500Z
+DTEND:20250523T120000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:47ca0e4d-2d9c-459a-b733-e92ff6fb1759
+DTSTAMP:20250517T082505Z
+SUMMARY:Large Scale Changes with AI - Migrating millions of lines of Java t
+ o Kotlin at Uber
+DESCRIPTION:Uber has one of the largest Android codebases in the world\, an
+ d while Kotlin is first class\, millions of lines of Java remain to be con
+ verted. Come along for the ride as we walk you through the tooling and pro
+ cesses we've built and integrated while working with the community to safe
+ ly mass migrate our production Java code to Kotlin code\, which we're now 
+ utilizing to scale out more migrations to other technologies. \n\nWe'll co
+ ver the motivations for tackling a migration of this magnitude\, the chall
+ enges for LSCs (Large Scale Changes) in huge monorepos and organizations\, 
+ generating migration data sets to power cutting-edge AI tools\, using agen
+ tic systems and pipelines to deterministically tackle the migrations at sc
+ ale\, the risks and mitigations for migrating this much production code\, 
+ how to manage thousands of PRs\, and where we'll be taking this technology 
+ next.
+LOCATION:Keynote room
+DTSTART:20250523T120000Z
+DTEND:20250523T124500Z
+END:VEVENT
+BEGIN:VEVENT
+UID:57954d81-92a6-4f8c-ad0f-6e97ea5f31f3
+DTSTAMP:20250517T082505Z
+SUMMARY:Data Analysis for finance in Kotlin
+DESCRIPTION:Data representation and analysis in finance has a large literat
+ ure already present in R and Python\, two of the most common suspects. The
+ y have the community\, tooling and a long tradition. But what about Kotlin 
+ with some of the libraries in the family\, like DataFrame and Kandy? Kotli
+ n\, traditionally known for its focus in mobile and backend development\, 
+ has emerged as a strong contender in the data science space. This session 
+ explores the potential of Kotlin for financial data analysis\, focusing on 
+ the use of the DataFrame library and the Kandy visualization framework.\n\
+ nWe will demonstrate how Kotlin provides a rich\, statically typed languag
+ e environment\, ensuring safety\, conciseness\, and performance in handlin
+ g large datasets commonly encountered in financial contexts. DataFrame pro
+ vides the capacity to manipulate structured data\, while Kandy enables hig
+ h-quality visualizations.\n\nThis presentation will also provide a compara
+ tive analysis between Kotlin\, R\, and Python. We will examine common use 
+ cases such as dividend history\, stock valuation based on price and yields
+ . While R and Python have established ecosystems for data science\, Kotlin
+ 's performance\, tooling\, and modern features offer new possibilities for 
+ finance professionals looking for a more efficient alternative.\n\n\n
+LOCATION:Hall D2
+DTSTART:20250523T120000Z
+DTEND:20250523T124500Z
+END:VEVENT
+BEGIN:VEVENT
+UID:3f52b013-b0b2-4f35-9f86-65f3bed7f4c5
+DTSTAMP:20250517T082505Z
+SUMMARY:Simplifying Full-Stack Kotlin: A Fresh Take with HTMX and Ktor
+DESCRIPTION:Being a full-stack developer is valuable in today's tech landsc
+ ape - you can own features end-to-end\, make holistic architectural decisi
+ ons\, and adapt quickly to changing project needs. This versatility is esp
+ ecially crucial in smaller teams and startups.\n\nHowever\, the role can b
+ e intimidating. The list of technologies one is expected to master is exte
+ nsive: Kubernetes\, Postgres\, Kotlin\, Gradle\, Ktor\, React\, Remix\, No
+ de.js\, and NPM. Even the most experienced developers struggle to keep up 
+ with it all.\n\nPerhaps we should step back and examine this problem from 
+ a fresh perspective. Do we truly need all these technologies? After all\, 
+ HTML and CSS remain relatively stable\, unlike frameworks that seem to cha
+ nge every six months.\n\nMany applications don't require the complexity of 
+ a modern Javascript Single Page Application (SPA). Everything eventually r
+ enders to HTML anyway! Using technologies like HTML\, CSS\, HTMX\, AlpineJ
+ S\, and Unpoly\, you can achieve 98% of SPA functionality with minimal fro
+ ntend code and less complexity. These tools enhance and build upon HTML an
+ d CSS rather than trying to replace them.\n\nIn this presentation\, I'll s
+ how how HTMX and kotlinx.html combine beautifully with Ktor to create mode
+ rn\, interactive web applications. You'll see how these technologies work 
+ together seamlessly - Ktor's powerful backend capabilities\, kotlinx.html'
+ s type-safe HTML generation\, and HTMX's elegant approach to frontend inte
+ ractions. This stack offers a refreshingly simple way to build dynamic web 
+ applications while keeping your codebase clean and maintainable.
+LOCATION:Auditorium 15
+DTSTART:20250523T120000Z
+DTEND:20250523T124500Z
+END:VEVENT
+BEGIN:VEVENT
+UID:cc9f2ff6-cbfd-465e-b1b2-712f67d2342e
+DTSTAMP:20250517T082505Z
+SUMMARY:Swift Export - a peek under the hood
+DESCRIPTION:One of the most anticipated features in Kotlin Multiplatform—Sw
+ ift Export! It’s been a year since we announced its development. Join us a
+ s we explore the challenges the team has faced\, why it’s taking so long\, 
+ and\, most importantly\, how you can preview Swift Export in your own proj
+ ects.
+LOCATION:Auditorium 11+12
+DTSTART:20250523T120000Z
+DTEND:20250523T124500Z
+END:VEVENT
+BEGIN:VEVENT
+UID:f3ddbaf5-09a5-490b-8478-f186b434d9f9
+DTSTAMP:20250517T082505Z
+SUMMARY:Building immersive VR apps for Meta Quest with Jetpack Compose
+DESCRIPTION:Virtual Reality (VR) is rapidly becoming the future of interact
+ ions and immersive experiences\, transforming how we engage with apps and 
+ content. As VR technology continues to evolve and become mainstream\, devi
+ ces like the Meta Quest offer powerful opportunities for creating highly i
+ mmersive and interactive experiences. \n\nIn this talk\, we will explore h
+ ow to leverage Jetpack Compose to build VR applications for the Meta Quest
+ .\n\nWe will dive into the unique challenges of VR development\, such as s
+ patial UI design\, handling new input methods for seamless experiences. A 
+ key focus of this session will be on converting existing Android apps into 
+ immersive VR apps\, demonstrating how to adapt traditional 2D UIs into spa
+ tially aware interfaces suitable for VR environments. \n\nAs a bonus\, we 
+ will take a brief tour of how to integrate 3D objects and scenes seamlessl
+ y in the VR experiences. You will learn how to combine both UI elements an
+ d 3D content further enhancing immersion and interaction.\n\nBy the end of 
+ the session\, you will be equipped with practical knowledge you can use to 
+ create or adapt your existing apps into VR for the Meta Quest with Jetpack 
+ Compose along with practical tips and best practices for immersive experie
+ nces.
+LOCATION:Auditorium 10 (Lightning talks)
+DTSTART:20250523T120000Z
+DTEND:20250523T121500Z
+END:VEVENT
+BEGIN:VEVENT
+UID:522017ba-28c3-4878-a133-fd7d8db91fbe
+DTSTAMP:20250517T082505Z
+SUMMARY:Migrating Room to Room KMP
+DESCRIPTION:This Codelab builds off the “Get Started With Kotlin Multiplatf
+ orm for Shared Business Logic” Codelab\, and allows the developer to migra
+ te a Room database to a Room KMP database within the KMP Shared Module\, a
+ nd then leverage this Room KMP database from the Android and iOS app.
+LOCATION:Room #173
+DTSTART:20250523T120000Z
+DTEND:20250523T124500Z
+END:VEVENT
+BEGIN:VEVENT
+UID:6470be70-2519-420e-97ff-bb3cec2f7ec3
+DTSTAMP:20250517T082505Z
+SUMMARY:Bringing Maps to Compose Multiplatform with MapLibre Compose
+DESCRIPTION:Working with maps in a Kotlin Multiplatform app can be tricky—d
+ ifferent platform APIs\, inconsistent features\, and duplicated code add u
+ nwelcome complexity. MapLibre Compose simplifies this process by providing 
+ a consistent\, declarative API built on top of MapLibre and Compose Multip
+ latform.\n\nWe’ll use practical examples to explore the design and impleme
+ ntation of MapLibre Compose\, how it leverages the Compose runtime to decl
+ aratively express the powerful mapping capabilities of MapLibre\, and how 
+ it uses Kotlin Multiplatform to help developers write map-based UI code on
+ ce and run it seamlessly on Android\, iOS\, and beyond without code duplic
+ ation.\n\nFor developers working with Compose Multiplatform\, this talk wi
+ ll showcase how MapLibre Compose can help add mapping features to your app
+ s. You'll gain a clear understanding of its capabilities\, its design prin
+ ciples\, and how it can help you create richer user experiences across pla
+ tforms.
+LOCATION:Auditorium 10 (Lightning talks)
+DTSTART:20250523T123000Z
+DTEND:20250523T124500Z
+END:VEVENT
+BEGIN:VEVENT
+UID:9c631911-ed91-4e18-a9e0-03259dfa27f8
+DTSTAMP:20250517T082505Z
+SUMMARY:Coffee Break
+LOCATION:Keynote room
+DTSTART:20250523T124500Z
+DTEND:20250523T131500Z
+END:VEVENT
+BEGIN:VEVENT
+UID:307f747f-08f6-443e-bc31-b43217923303
+DTSTAMP:20250517T082505Z
+SUMMARY:Kotlin and Compose Multiplatform patterns for iOS interop
+DESCRIPTION:Kotlin Multiplatform (KMP) and\, more recently\, Compose Multip
+ latform (CMP) have matured significantly in recent years and are gaining i
+ ncreasingly widespread adoption. \n\nHowever iOS integration continues to 
+ present its own set of challenges which also vary depending on the amount 
+ of UI code that's being shared. In this talk I'll use real world examples 
+ to outline a variety of different UI and non-UI patterns I've applied over 
+ the last 5 years when using KMP and CMP on iOS.  \n
+LOCATION:Keynote room
+DTSTART:20250523T131500Z
+DTEND:20250523T140000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:f0e65da0-9c2e-4761-b0b2-d24d6d7c4f77
+DTSTAMP:20250517T082505Z
+SUMMARY:Fast inner dev loops for Kotlin Gradle builds
+DESCRIPTION:Whether it's a Kotlin library or an Android app\, developers wa
+ nt their inner loop to be fast: code\, compile\, test\, repeat. With Gradl
+ e\, there are no extra steps—you run the test\, and it takes care of the r
+ est\, whether you’re tweaking a single line of code or upgrading all your 
+ dependencies.\n\nIn this talk\, learn how to tame the inner dev loop. We'l
+ l explore the recent evolution of Gradle's performance features\, such as 
+ Configuration Cache and Isolated Projects\, and how to organize your Kotli
+ n build to make the most of it.
+LOCATION:Hall D2
+DTSTART:20250523T131500Z
+DTEND:20250523T140000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:aff0f532-2aea-4d9b-9170-e5dcc65040f6
+DTSTAMP:20250517T082505Z
+SUMMARY:Lessons learned decoupling Architecture Components from platform sp
+ ecific code
+DESCRIPTION:Follow along as the Android team walks you through the process 
+ of taking some of their architectural building blocks\, such as SavedState 
+ and System Back\, through the process of decoupling them from platform spe
+ cific implementations and how they approached the task of writing good com
+ mon APIs in preparation for future integrations with other platforms while 
+ maintaining the quality achieved in android.
+LOCATION:Auditorium 15
+DTSTART:20250523T131500Z
+DTEND:20250523T140000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:bba62874-0b5d-4161-84b8-20dd88df8e04
+DTSTAMP:20250517T082505Z
+SUMMARY:Kotlin Clean Architecture for Serverless: Business Logic You Can Ta
+ ke Anywhere
+DESCRIPTION:As cloud platforms continue to evolve\, serverless functions pr
+ ovide powerful ways to build and scale applications with reduced infrastru
+ cture concerns. However\, cloud-specific requirements often make it challe
+ nging to keep business logic portable across different cloud providers. Th
+ is session presents a variant of clean architecture designed to separate c
+ ore business logic from cloud-specific code\, leveraging Kotlin’s capabili
+ ties along with Spring Cloud Function and headless Gradle modules.\n\nIn t
+ his talk\, I’ll demonstrate how to structure a Kotlin application for serv
+ erless using a simplified clean architecture approach. This structure main
+ tains cloud-agnostic business logic while allowing platform-specific imple
+ mentations for integration functionality like storage. By isolating busine
+ ss logic in headless modules\, developers can deploy the same core code ac
+ ross multiple cloud function providers such as AWS Lambda and Azure Functi
+ ons.\n\nThrough live coding\, we’ll explore practical techniques for build
+ ing and deploying serverless applications with cloud-agnostic business log
+ ic. \nThis session is aimed at advanced Kotlin developers interested in se
+ rverless architecture\, cloud flexibility\, and clean architecture princip
+ les. 
+LOCATION:Auditorium 11+12
+DTSTART:20250523T131500Z
+DTEND:20250523T140000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:49995836-543e-4d11-95a0-0a8d035f53de
+DTSTAMP:20250517T082505Z
+SUMMARY:Swift concurrency for curious Kotliners
+DESCRIPTION:Swift is an open-source programming language by Apple\, primari
+ ly used for building apps within the Apple ecosystem.\n\nA new major versi
+ on of Swift - Swift 6 was released at the end of the previous year. The st
+ andout feature of the release is strict concurrency mode\, which aims to p
+ revent data races.\n\nIn this talk\, we will take a quick look at Swift ac
+ tors and `async`/`await` features\, which share a lot of similarities with 
+ Kotlin Coroutines. We will explore what does Swift 6 do to prevent data ra
+ ces\, and\, perhaps\, discuss if we can expect a similar feature in future 
+ versions of Kotlin.\n\nThe talk assumes that the attendees are familiar wi
+ th Kotlin Coroutines.
+LOCATION:Auditorium 10 (Lightning talks)
+DTSTART:20250523T131500Z
+DTEND:20250523T133000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:4afa5843-7e6b-45ad-bd3d-602057ba6015
+DTSTAMP:20250517T082505Z
+SUMMARY:Klibs.io — the dream of creating a Kotlin Package Index
+DESCRIPTION:So you want to build a Kotlin package index.. What is a package 
+ anyway\, is it the same as an artifact? What makes a project a library the
+ n? And why is it an index and not a repository?\n\nThis talk is a story an
+ d a retrospective of developing [https://klibs.io](https://klibs.io)\n\nI 
+ will share the insights I learned after processing 250\,000 KMP artifacts 
+ and 1\,500 Kotlin projects. We'll discuss our library sharing ecosystem an
+ d its limitations\, and I will give tips to library authors on how to stan
+ d out and make their libraries more discoverable
+LOCATION:Auditorium 10 (Lightning talks)
+DTSTART:20250523T134500Z
+DTEND:20250523T140000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:1cfdb6c3-a04f-4adc-beac-ffabadc29eb6
+DTSTAMP:20250517T082505Z
+SUMMARY:Break
+LOCATION:Hall D2
+DTSTART:20250523T140000Z
+DTEND:20250523T141500Z
+END:VEVENT
+BEGIN:VEVENT
+UID:93886053-8fb1-4afe-b47b-277fc2960abe
+DTSTAMP:20250517T082505Z
+SUMMARY:47 Refactorings in 45 minutes
+DESCRIPTION:IntelliJ IDEA's refactoring support is second to none\, but the 
+ Refactor This menu only has 9 items. Where is all the power hiding?\n\nJoi
+ n Dmitry and Duncan on a whistle-stop live-coding tour of our favourite ID
+ E's invisible refactorings. Marvel as Alt-Enter reveals refactorings befor
+ e your very eyes. Gasp as they change depending on context. Wonder how com
+ pletely different they can be simply by moving the cursor one character to 
+ the left or right\, and feel the tension mount as they approach the deadli
+ ne. Can they really show more than one refactoring a minute?
+LOCATION:Keynote room
+DTSTART:20250523T141500Z
+DTEND:20250523T150000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:944afab4-9cdb-4f81-96df-a9c01ab01789
+DTSTAMP:20250517T082505Z
+SUMMARY:From Data to Insights: Building a Bluesky Bot powered by AI
+DESCRIPTION:\nA common challenge developers face when working with data str
+ eams is collecting and analyzing this data as fast as possible to uncover 
+ meaningful insights or take fast actions.\n\nIn this talk\, I’ll show you 
+ how I tackled this by building a Bluesky bot that turns raw data collected 
+ from the Bluesky’s stream of posts into actionable insights.\n\nIn this ta
+ lk you will learn how to: \n- Collect data into streams\n- Use probabilist
+ ic data structures such as Bloom Filters\, TopK and Count-Min Sketch\n- Us
+ e Retrieval-Augmented Generation for adding your own knowledge base into y
+ our LLM queries\n- Use semantic caching for reducing LLM calls\n- Use vect
+ or siilarity search to classify the data\n- Efficiently querythe data\n\nW
+ hether you’re curious about GenAI\, interested in data-driven analytics\, 
+ or simply love experimenting with creative tech solutions\, this session w
+ ill inspire you with practical techniques and real-world applications.
+LOCATION:Hall D2
+DTSTART:20250523T141500Z
+DTEND:20250523T150000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:b74d8423-4c62-4bae-bbdc-ba02d935da41
+DTSTAMP:20250517T082505Z
+SUMMARY:Stream Processing Rocks! Stream processing in Kotlin from KStreams 
+ to RocksDB
+DESCRIPTION:Ever wondered how to efficiently process high-velocity data str
+ eams using Kafka and Kotlin? Join two engineers from SolarWinds—experts wh
+ o oversee billions of observability records daily—as they share their insi
+ ghts.\n\nWe'll kick off by covering what stream processing is and when you 
+ should use it. Dive into practical Kotlin solutions through a simple case 
+ study on stripping PII from incoming user records using Kafka Streams. We’
+ ll build upon this example by utilizing Kafka's compacting topics feature 
+ to distribute the user data and store it locally for rapid API responses. 
+ Finally\, we’ll 'scale up' by moving that data out of memory and into Rock
+ sDB\, demonstrating how to handle larger datasets effectively. By the end 
+ of this talk\, you'll be equipped to build your first KStream or scale up 
+ the ones you’re already building.
+LOCATION:Auditorium 15
+DTSTART:20250523T141500Z
+DTEND:20250523T150000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:829881e9-2605-4dad-b302-5e0e214b86b4
+DTSTAMP:20250517T082505Z
+SUMMARY:Scale your Kotlin Multiplatform projects using dependency injection
+DESCRIPTION:Kotlin-inject-anvil is a dependency injection framework for Kot
+ lin Multiplatform. It verifies the dependency graph at compile time and ge
+ nerates the necessary code to instantiate the object graph at runtime. The 
+ framework aims to provide a safe dependency injection solution without the 
+ boilerplate and configurations common in many other libraries.\n\nThis tal
+ k will introduce kotlin-inject-anvil\, discussing its benefits and how it 
+ scales in large\, modularized codebases. We'll explore how to leverage the 
+ strengths of each host platform while maximizing common Kotlin Multiplatfo
+ rm code. Since each codebase is unique\, I'll demonstrate how we adapt the 
+ framework for our own internal use cases at Amazon.
+LOCATION:Auditorium 11+12
+DTSTART:20250523T141500Z
+DTEND:20250523T150000Z
+END:VEVENT
+BEGIN:VEVENT
+UID:b06d152a-7c8b-488e-b04d-f753e4758925
+DTSTAMP:20250517T082505Z
+SUMMARY:Break
+LOCATION:Hall D2
+DTSTART:20250523T150000Z
+DTEND:20250523T151500Z
+END:VEVENT
+BEGIN:VEVENT
+UID:634b5618-2018-4041-94c3-7aef44a7a6fb
+DTSTAMP:20250517T082505Z
+SUMMARY:Closing Panel
+LOCATION:Keynote room
+DTSTART:20250523T151500Z
+DTEND:20250523T160000Z
+END:VEVENT
+END:VCALENDAR
