@@ -2,6 +2,7 @@
 //DEPS io.quarkus.platform:quarkus-bom:3.22.3@pom
 //DEPS io.quarkus:quarkus-picocli
 //DEPS io.quarkus:quarkus-rest-client-jackson
+//DEPS io.quarkus:quarkus-qute
 //DEPS net.sf.biweekly:biweekly:0.6.8
 
 import static biweekly.Biweekly.write;
@@ -12,24 +13,26 @@ import static java.util.Date.from;
 
 import java.nio.file.Paths;
 import java.util.List;
+import java.util.Map;
+import java.util.Objects;
 import java.util.concurrent.Callable;
+import java.util.stream.Collectors;
 
 import org.eclipse.microprofile.rest.client.inject.RegisterRestClient;
 import org.eclipse.microprofile.rest.client.inject.RestClient;
 
 import biweekly.ICalendar;
 import biweekly.component.VEvent;
+import io.quarkus.qute.Qute;
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
-import jakarta.ws.rs.QueryParam;
 import picocli.CommandLine.Command;
-import picocli.CommandLine.Option;
 
 //Q:CONFIG quarkus.rest-client.logging.scope=request-response
 //Q:CONFIG quarkus.rest-client.logging.body-limit=50
 //Q:CONFIG quarkus.rest-client.extensions-api.scope=all
-//Q:CONFIG quarkus.log.category."org.jboss.resteasy.reactive.client.logging".level=DEBUG
-//Q:CONFIG quarkus.log.console.level=DEBUG
+////Q:CONFIG quarkus.log.category."org.jboss.resteasy.reactive.client.logging".level=DEBUG
+//Q:CONFIG quarkus.log.console.level=WARN
 
 @Command(name = "kotlinconf2ics", mixinStandardHelpOptions = true, description = "Download KotlinConf schedule and generate ICS")
 public class KotlinConf2Ics implements Callable<Integer> {
@@ -54,10 +57,17 @@ public class KotlinConf2Ics implements Callable<Integer> {
                 for (var sessionGroup : group.group()) {
                     for (var session : sessionGroup.nodes()) {
                         var event = new VEvent();
-                        event.setSummary(session.title());
 
-                        String description = session.description();
-                        
+                        String summary = session.title();
+                        event.setSummary(summary);
+
+                        String description = Qute.fmt("""
+                        Speakers:{speakers}
+
+                        {description}
+                        """, Map.of(
+                                                "description",Objects.toString(session.description(),""),
+                                                "speakers",session.speakers.stream().map(s -> s.fullName()).collect(Collectors.joining(", "))));
                         event.setDescription(description);
                         event.setLocation(session.room() != null ? session.room().name() : null);
                         event.setDateStart(from(parse(session.startsAt(), ISO_OFFSET_DATE_TIME).toInstant()));

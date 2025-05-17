@@ -87,19 +87,12 @@ If you encounter any issues:
 
 ## Contributing
 
-Contributions are welcome! Feel free to:
-- Report bugs
-- Suggest new features
-- Submit pull requests
-- Improve documentation
+Contributions are welcome! Especially if someone
+could do a clean Kotlin port - my current attempts resulted in errors :)
 
 ## License
 
 This project is open source and available under the MIT License.
-
-## Author
-
-[Your Name/GitHub Username]
 
 ---
 
