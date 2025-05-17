@@ -30,13 +30,15 @@ This project creates an ICS file containing all sessions from KotlinConf, making
    scoop install jbang
    ```
 
-2. Run the script:
+2. Run the kotlin script:
    ```bash
+   jbang KotlinConf2Ics.kt
+   ```
+    or Java:
+3. 
+    ```bash
    jbang KotlinConf2Ics.java
    ```
-
-
-
 
 3. Import the generated `kotlinconf.ics` file into your calendar:
    - **Google Calendar**: 
