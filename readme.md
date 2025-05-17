@@ -5,7 +5,7 @@ This tool downloads the KotlinConf schedule and generates an ICS (iCalendar) fil
 
 [![Add to Google Calendar](https://img.shields.io/badge/Add%20to-Google%20Calendar-4285F4?logo=google-calendar&logoColor=white)](https://calendar.google.com/calendar/u/0/r?cid=webcal://raw.githubusercontent.com/maxandersen/kotlinconfics/refs/heads/main/kotlinconf.ics)
 
-[![Add to Apple Calendar](https://img.shields.io/badge/Add%20to-Apple%20Calendar-000000?logo=apple&logoColor=white)](webcal://raw.githubusercontent.com/maxandersen/kotlinconfics/refs/heads/main/kotlinconf.ics)
+[![Direct ICS Link](https://img.shields.io/badge/Direct-ICS%20Link-4285F4?logo=ical&logoColor=white)](https://raw.githubusercontent.com/maxandersen/kotlinconfics/refs/heads/main/kotlinconf.ics) - Right click and Copy link to import
 
 ## What is this?
 
