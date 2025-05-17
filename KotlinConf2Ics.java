@@ -10,7 +10,6 @@ import static java.time.OffsetDateTime.parse;
 import static java.time.format.DateTimeFormatter.ISO_OFFSET_DATE_TIME;
 import static java.util.Date.from;
 
-import java.io.File;
 import java.nio.file.Paths;
 import java.util.List;
 import java.util.concurrent.Callable;
@@ -22,23 +21,24 @@ import biweekly.ICalendar;
 import biweekly.component.VEvent;
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
-import jakarta.ws.rs.Produces;
 import jakarta.ws.rs.QueryParam;
-import jakarta.ws.rs.core.MediaType;
 import picocli.CommandLine.Command;
 import picocli.CommandLine.Option;
 
+//Q:CONFIG quarkus.rest-client.logging.scope=request-response
+//Q:CONFIG quarkus.rest-client.logging.body-limit=50
+//Q:CONFIG quarkus.rest-client.extensions-api.scope=all
+//Q:CONFIG quarkus.log.category."org.jboss.resteasy.reactive.client.logging".level=DEBUG
+//Q:CONFIG quarkus.log.console.level=DEBUG
+
 @Command(name = "kotlinconf2ics", mixinStandardHelpOptions = true, description = "Download KotlinConf schedule and generate ICS")
 public class KotlinConf2Ics implements Callable<Integer> {
-
-    @Option(names = { "--days", "--day" }, description = "Day (e.g. 2025-05-22)", split = ",| ", defaultValue = "2025-05-22 2025-05-23 2025-05-24")
-    List<String> days;
 
     @RegisterRestClient(baseUri = "https://kotlinconf.com")
     public interface ScheduleService {
         @GET
         @Path("/page-data/schedule/page-data.json")
-        ScheduleRoot getSchedule(@QueryParam("day") String day);
+        ScheduleRoot getSchedule();
     }
 
     @RestClient
@@ -48,9 +48,8 @@ public class KotlinConf2Ics implements Callable<Integer> {
     public Integer call() throws Exception {
         var ical = new ICalendar();
 
-        for (var day : days) {
-            out.println("Getting schedule for " + day);
-            var root = scheduleService.getSchedule(day);
+            out.println("Getting schedule");
+            var root = scheduleService.getSchedule();
             for (var group : root.result().data().allSession().group()) {
                 for (var sessionGroup : group.group()) {
                     for (var session : sessionGroup.nodes()) {
@@ -67,7 +66,7 @@ public class KotlinConf2Ics implements Callable<Integer> {
                     }
                 }
             }
-        }
+        
         var file = Paths.get("kotlinconf.ics");
         write(ical).go(file.toFile());
         out.println("ICS file generated: " + file);
