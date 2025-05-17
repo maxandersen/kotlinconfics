@@ -1,9 +1,16 @@
+///usr/bin/env jbang "$0" "$@" ; exit $?
 //DEPS io.quarkus.platform:quarkus-bom:3.22.3@pom
 //DEPS io.quarkus:quarkus-picocli
 //DEPS io.quarkus:quarkus-rest-client-jackson
 //DEPS io.quarkus:quarkus-qute
 //DEPS net.sf.biweekly:biweekly:0.6.8
 //KOTLIN 2.1.20
+
+//Q:CONFIG quarkus.rest-client.logging.scope=request-response
+//Q:CONFIG quarkus.rest-client.logging.body-limit=50
+//Q:CONFIG quarkus.rest-client.extensions-api.scope=all
+////Q:CONFIG quarkus.log.category."org.jboss.resteasy.reactive.client.logging".level=DEBUG
+//Q:CONFIG quarkus.log.console.level=WARN
 
 import biweekly.Biweekly.write
 import biweekly.ICalendar
@@ -57,18 +64,16 @@ class KotlinConf2Ics : Callable<Int> {
                             """
                         {#if speakers}
                         Speakers:
-                          {#for speaker : speakers}
-                            {speaker.fullName()} - {speaker.tagLine()}
-                          {/for}
-
+                        {#for speaker : speakers}
+                        {speaker.fullName()} - {speaker.tagLine()}
+                        {/for}
                         {/if}
                         <a href="https://kotlinconf.com/schedule/?session={id}">link</a>
-
                         {description}
                         """,
                             mapOf(
                                 "id" to (session.id ?: ""),
-                                "description" to (session.description ?: ""),
+                                "description" to (session.description?.trim() ?: ""),
                                 "speakers" to (session.speakers ?: emptyList<Speaker>())
                             )
                         )
